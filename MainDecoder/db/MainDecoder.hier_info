@@ -1,0 +1,21 @@
+|MainDecoder
+op[0] => Decoder0.IN6
+op[1] => Decoder0.IN5
+op[2] => Decoder0.IN4
+op[3] => Decoder0.IN3
+op[4] => Decoder0.IN2
+op[5] => Decoder0.IN1
+op[6] => Decoder0.IN0
+ResultSrc[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ResultSrc[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+MemWrite <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Branch <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrc <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite <= controls.DB_MAX_OUTPUT_PORT_TYPE
+Jump <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ImmSrc[0] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ImmSrc[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[1] <= controls.DB_MAX_OUTPUT_PORT_TYPE
+
+

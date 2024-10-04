@@ -1,0 +1,65 @@
+|Controller
+op[0] => op[0].IN1
+op[1] => op[1].IN1
+op[2] => op[2].IN1
+op[3] => op[3].IN1
+op[4] => op[4].IN1
+op[5] => op[5].IN2
+op[6] => op[6].IN1
+funct3[0] => funct3[0].IN1
+funct3[1] => funct3[1].IN1
+funct3[2] => funct3[2].IN1
+funct7b5 => funct7b5.IN1
+Zero => PCSrc.IN1
+ResultSrc[0] <= MainDecoder:md.port1
+ResultSrc[1] <= MainDecoder:md.port1
+ImmSrc[0] <= MainDecoder:md.port7
+ImmSrc[1] <= MainDecoder:md.port7
+MemWrite <= MainDecoder:md.port2
+PCSrc <= PCSrc.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrc <= MainDecoder:md.port4
+RegWrite <= MainDecoder:md.port5
+Jump <= MainDecoder:md.port6
+ALUControl[0] <= AluDecoder:ad.port4
+ALUControl[1] <= AluDecoder:ad.port4
+ALUControl[2] <= AluDecoder:ad.port4
+
+
+|Controller|MainDecoder:md
+op[0] => Decoder0.IN6
+op[1] => Decoder0.IN5
+op[2] => Decoder0.IN4
+op[3] => Decoder0.IN3
+op[4] => Decoder0.IN2
+op[5] => Decoder0.IN1
+op[6] => Decoder0.IN0
+ResultSrc[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ResultSrc[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+MemWrite <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Branch <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrc <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite <= controls.DB_MAX_OUTPUT_PORT_TYPE
+Jump <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ImmSrc[0] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ImmSrc[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[1] <= controls.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controller|AluDecoder:ad
+funct7b5 => RtypeSub.IN0
+opb5 => RtypeSub.IN1
+funct3[0] => Mux1.IN4
+funct3[1] => Mux0.IN5
+funct3[1] => Mux1.IN3
+funct3[2] => Mux0.IN4
+funct3[2] => ALUControl.DATAB
+ALUOp[0] => Equal0.IN3
+ALUOp[0] => Equal1.IN3
+ALUOp[1] => Equal0.IN2
+ALUOp[1] => Equal1.IN2
+ALUControl[0] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[1] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[2] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
+
+

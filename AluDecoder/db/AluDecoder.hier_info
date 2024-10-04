@@ -1,0 +1,17 @@
+|AluDecoder
+funct7b5 => RtypeSub.IN0
+opb5 => RtypeSub.IN1
+funct3[0] => Mux1.IN4
+funct3[1] => Mux0.IN5
+funct3[1] => Mux1.IN3
+funct3[2] => Mux0.IN4
+funct3[2] => ALUControl.DATAB
+ALUOp[0] => Equal0.IN3
+ALUOp[0] => Equal1.IN3
+ALUOp[1] => Equal0.IN2
+ALUOp[1] => Equal1.IN2
+ALUControl[0] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[1] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[2] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
+
+
