@@ -1,0 +1,14 @@
+module HazardUnit (RegWriteE,WriteAddE,rs1,rs2,SS1,SS2);
+
+input RegWriteE;
+input [4:0]WriteAddE,rs1,rs2;
+output SS1,SS2;
+
+always@(*) begin
+   if(((WriteAddE == rs1) | (WriteAddE == rs2)) & RegWriteE)
+	    {SS1,SS2} = 2'b00;
+	else
+	    {SS1,SS2} = 2'b11;
+end
+
+endmodule

@@ -1,0 +1,46 @@
+vsim -gui work.tb_InstructionMemory
+# vsim -gui work.tb_InstructionMemory 
+# Start time: 20:34:05 on Oct 10,2024
+# Loading work.tb_InstructionMemory
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/tb_InstructionMemory/a
+add wave -position end  sim:/tb_InstructionMemory/clk
+add wave -position end  sim:/tb_InstructionMemory/rd
+run
+# At time                    0, address = 00000000, read data = 00500113
+run
+run
+run
+run
+run
+# At time                50000, address = 00000004, read data = 00c00193
+run
+run
+run
+run
+run
+# At time               100000, address = 00000008, read data = ff718393
+run
+run
+run
+run
+run
+# At time               150000, address = 0000000c, read data = 0023e233
+run
+run
+run
+run
+run
+# At time               200000, address = 000003fc, read data = 00000000
+run
+run
+quit -sim
+# End time: 20:37:00 on Oct 10,2024, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 0
+quit -sim
+project open C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF

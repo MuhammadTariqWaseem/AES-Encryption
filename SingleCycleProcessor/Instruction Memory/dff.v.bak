@@ -1,0 +1,12 @@
+module dff(clk,reset,d,q);
+input clk,reset,d;
+output q;
+
+always@(posedge clk,reset)
+begin
+   if(reset)
+	    q <= 1'b0;
+	else
+	    q <= d;
+end
+endmodule

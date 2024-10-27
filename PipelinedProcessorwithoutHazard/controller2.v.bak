@@ -1,0 +1,23 @@
+ module Controller2(op, funct3 , funct7b5, ResultSrc, ImmSrc, MemWrite, Branch, ALUSrc, RegWrite, Jump, ALUControl, SS2);
+ 
+ input [6:0] op;
+ input [2:0] funct3;
+ input funct7b5;
+ output reg [1:0] ResultSrc,ImmSrc;
+ output reg MemWrite,Branch, ALUSrc,RegWrite, Jump;
+ output reg [2:0] ALUControl;
+ input SS2;
+ 
+ wire [1:0] ALUOp;
+ wire Branch;
+ 
+ always@(*) begin 
+   if(SS2 == 1) begin 
+        MainDecoder md(op, ResultSrc, MemWrite, Branch, ALUSrc, RegWrite, Jump, ImmSrc, ALUOp);
+        AluDecoder ad(funct7b5 , op[5], funct3, ALUOp, ALUControl);
+    end
+	 else 
+	     {ResultSrc, ImmSrc, MemWrite, Branch, ALUSrc, RegWrite, Jump, ALUControl} = 12'd0;
+ end
+  
+ endmodule

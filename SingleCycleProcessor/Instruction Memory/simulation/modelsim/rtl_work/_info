@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/simulation/modelsim
+vINST
+Z1 !s110 1728574202
+!i10b 1
+!s100 G4Lh?Q6^jmOGC^zg1XPLa0
+I>goSNfBT?mkI<DWo=2=`c0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1728564841
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v
+L0 40
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1728574202.000000
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory}
+Z7 tCvgOpt 0
+n@i@n@s@t
+vInstructionMemory
+R1
+!i10b 1
+!s100 fBn48KfFW`k451nMR59Th1
+I4nTTGU;63U9>TSL2MWfhm1
+R2
+R0
+w1727614276
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v|
+!i113 1
+R5
+R6
+R7
+n@instruction@memory

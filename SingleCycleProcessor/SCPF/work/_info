@@ -1,0 +1,2913 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/PC/Desktop/IC Design Course/DLD/LAB2/P1
+va_graycounter
+Z0 !s110 1729523215
+!i10b 1
+!s100 7RL@7]^Mkb[^0^A4A<DHg3
+I>hjj]0Pj0@M2XL@Ym^dZZ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF
+Z3 w1569208979
+Z4 8C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+Z5 FC:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+L0 52631
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1729523214.000000
+Z8 !s107 C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vadder
+Z12 !s110 1729620803
+!i10b 1
+!s100 BIaI]dz9YBQL>P_;gL`1Z2
+IgE7Nc52QcD8@]77BhD[Qa0
+R1
+R2
+Z13 w1729620593
+Z14 8C:/Users/PC/Desktop/IC Design Course/DLD/XGA/programc.v
+Z15 FC:/Users/PC/Desktop/IC Design Course/DLD/XGA/programc.v
+L0 14
+R6
+r1
+!s85 0
+31
+Z16 !s108 1729620803.000000
+Z17 !s107 C:/Users/PC/Desktop/IC Design Course/DLD/XGA/programc.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/IC Design Course/DLD/XGA/programc.v|
+!i113 1
+R10
+R11
+vAdder
+Z19 !s110 1729523211
+!i10b 1
+!s100 cVSI^29Rcfc<f51<8EBZc1
+I__]ocZUeM;;3TceY:eCRF3
+R1
+R2
+w1726951232
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder/Adder.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder/Adder.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z20 !s108 1729523211.000000
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder/Adder.v|
+!i113 1
+R10
+R11
+n@adder
+valt3pram
+R0
+!i10b 1
+!s100 gzZ=F`Z_`hW`:8J8iJj4O0
+ITF:c5:Q;GXZf`3T>I8a1E0
+R1
+R2
+R3
+R4
+R5
+L0 50823
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_aeq_s4
+R0
+!i10b 1
+!s100 4azPFSAeTldzFmCD_gOK22
+I]cl^I]b_L>0anda1dZ6Xh0
+R1
+R2
+R3
+R4
+R5
+L0 53582
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal
+R0
+!i10b 1
+!s100 lk8<7RgmmHggboOR[fF0[1
+IFdVH2embTIJWk8]3zZMQ:2
+R1
+R2
+R3
+R4
+R5
+L0 53051
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal_av
+R0
+!i10b 1
+!s100 MmM@[NQXl0EzB=323Qn@43
+I?MX8YBO_U1FlSoEjZe12C3
+R1
+R2
+R3
+R4
+R5
+L0 53475
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal_c3gxb
+R0
+!i10b 1
+!s100 IZfciTPclB@nJ_WIS23^W2
+I1EIcG^LILMHHe_T>8[;8i0
+R1
+R2
+R3
+R4
+R5
+L0 53278
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal_mm
+R0
+!i10b 1
+!s100 G8A^jL54@:QeIRhDih0HS3
+IkMM;He>`eMo?WRo0Pfmz>2
+R1
+R2
+R3
+R4
+R5
+L0 53153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal_sv
+R0
+!i10b 1
+!s100 gJMhGk_BOV8cJW4:<=nm@2
+InTANBEjogYAkHlnEj7zMI3
+R1
+R2
+R3
+R4
+R5
+L0 53378
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_dfe
+R0
+!i10b 1
+!s100 BRh?MNcko8BiZ3z[zj;i[2
+I0^78bdm1`Ba]NkY@VXZJa1
+R1
+R2
+R3
+R4
+R5
+L0 53959
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_eyemon
+R0
+!i10b 1
+!s100 CXFGgbk>n1joh`H_AX9Kc2
+ICjcTn>Ef?gCmB68>F7;mN2
+R1
+R2
+R3
+R4
+R5
+L0 53679
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_fault_injection
+Z21 !s110 1729523216
+!i10b 1
+!s100 VJoWGAl]MK3ig9;O`4bhb3
+I=BLnFNRUg:6>g^bWJ@B943
+R1
+R2
+R3
+R4
+R5
+L0 56027
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtaccumulate
+R0
+!i10b 1
+!s100 ]J^>>M@KIe6:;k?@cL6jK0
+IPfoi@R>CmmM^iBVYOG@li3
+R1
+R2
+R3
+R4
+R5
+L0 34798
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtclklock
+R0
+!i10b 1
+!s100 dZP2fY7[X6OBenFPi2M3>2
+IXMkXda[:<aFbbPb^lC7zJ0
+R1
+R2
+R3
+R4
+R5
+L0 45468
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtddio_bidir
+R0
+!i10b 1
+!s100 d6h;ie5E87J34ZiR_`WGP0
+I:51bPm]Wd[Eala<@>33Ha1
+R1
+R2
+R3
+R4
+R5
+L0 46908
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtddio_in
+R0
+!i10b 1
+!s100 RYI1C30fJj7N8Y0J5dRbG3
+I4IQ7=KIa3P0U0=fhCzd1_2
+R1
+R2
+R3
+R4
+R5
+L0 46394
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtddio_out
+R0
+!i10b 1
+!s100 S];mG5k@6gz9bKEQ>6@]V2
+I^=J[:KQGANi:2:OJLm_do3
+R1
+R2
+R3
+R4
+R5
+L0 46657
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtdpram
+R0
+!i10b 1
+!s100 BE726jY[MoUWTU>>?R`hZ1
+IKK3d6aJGWkni;mF4Tick<3
+R1
+R2
+R3
+R4
+R5
+L0 47047
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vALTERA_DEVICE_FAMILIES
+Z22 !s110 1729523214
+!i10b 1
+!s100 LWTeFO?a^6l3ea7?@d<9?0
+IfYSM=nH62<i`IB[z2`8hl2
+R1
+R2
+R3
+R4
+R5
+L0 1433
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+vALTERA_MF_HINT_EVALUATION
+R22
+!i10b 1
+!s100 PH5i_RH6C@2cMRnc4>ae12
+IJU5hc=Kc_]=DQaQi5ci@_1
+R1
+R2
+R3
+R4
+R5
+L0 1311
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+vALTERA_MF_MEMORY_INITIALIZATION
+R22
+!i10b 1
+!s100 nTma^h04MOBz8;HdmmAdW1
+II=7T<WjL8ezaD=HoODj4P1
+R1
+R2
+R3
+R4
+R5
+L0 72
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+valtera_std_synchronizer
+R0
+!i10b 1
+!s100 73oR:1^=Z92Ban=;X:`af1
+IDNDnoimI:;>?eil6QeUUF3
+R1
+R2
+R3
+R4
+R5
+L0 52857
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtera_std_synchronizer_bundle
+R0
+!i10b 1
+!s100 OfKYR0eUALmFJ<mX=F8ko1
+ICnFFQM<OilCXh^KZX:JzB0
+R1
+R2
+R3
+R4
+R5
+L0 53016
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtera_syncram_derived
+R0
+!i10b 1
+!s100 hWa=4zA9QWk>DjHUA9O_03
+IlV82XQhjFm]X<WA]Md4X42
+R1
+R2
+R3
+R4
+R5
+L0 31874
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtera_syncram_derived_forwarding_logic
+R0
+!i10b 1
+!s100 JdkVPmcjH;EBkEX<QBT7e1
+INZ?dYHkBz:?g^SVW9oZIf1
+R1
+R2
+R3
+R4
+R5
+L0 34709
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtfp_mult
+R0
+!i10b 1
+!s100 c9dLG_`KcV2Q;PQb:iUEk1
+I2XdC1NPkMX<D<0zoN@OnH3
+R1
+R2
+R3
+R4
+R5
+L0 44581
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtlvds_rx
+R0
+!i10b 1
+!s100 gb9XVzURj:[>Z`zA6Q=b@1
+Ido=9FANN[e>N>^5QeBD>`1
+R1
+R2
+R3
+R4
+R5
+L0 23845
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtlvds_tx
+R0
+!i10b 1
+!s100 V^VfjN>9mSEQUOG3Ti[Tg3
+IZO1;Kn[jX@ojQOX^PV[8z1
+R1
+R2
+R3
+R4
+R5
+L0 27431
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtmult_accum
+R0
+!i10b 1
+!s100 DiYBWLQQ0V7IkzHZ9PD3z0
+ID<@Hcf43Rze]cWUl[2bGl1
+R1
+R2
+R3
+R4
+R5
+L0 35040
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtmult_add
+R0
+!i10b 1
+!s100 <>@[FFHS;IjA6YnRoVfJm3
+IY`]@D<JD7ilX=:SZIUGYb0
+R1
+R2
+R3
+R4
+R5
+L0 37245
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtparallel_flash_loader
+R21
+!i10b 1
+!s100 l5@8GIdLTLzmOe??91YXf3
+ITP<:T^LS6A0[5o`>i5MZa1
+R1
+R2
+R3
+R4
+R5
+L0 55872
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtpll
+R0
+!i10b 1
+!s100 [SX62M8C0J@z:hfdAbBD;3
+IGYTM9gI6?AJT2SB78Wgh22
+R1
+R2
+R3
+R4
+R5
+L0 21831
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtserial_flash_loader
+R21
+!i10b 1
+!s100 EaRF`7<5?]9dA?`LT<07V1
+I_:RG;id2d6bgC^llH1M:z1
+R1
+R2
+R3
+R4
+R5
+L0 55993
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtshift_taps
+R0
+!i10b 1
+!s100 N@[0Y=oH5jHLdW[WO`Yi@3
+I0F_d[`S7jJ=Jf970;^KT;2
+R1
+R2
+R3
+R4
+R5
+L0 52486
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsource_probe
+R21
+!i10b 1
+!s100 KQ?M2Jc4^@;XBJRANEANe0
+I0?m[EbW<T@3GnhXmlPJoN0
+R1
+R2
+R3
+R4
+R5
+L0 56153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsqrt
+R0
+!i10b 1
+!s100 a[5V9KX9=mLzMafI5YMk83
+IdGSNb79=159e:VPTjlUI32
+R1
+R2
+R3
+R4
+R5
+L0 45266
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsquare
+R0
+!i10b 1
+!s100 4LWWOhDc[``3f`[`h]G9F3
+I3<Khd^N?:ZY^c:LAUUSXQ1
+R1
+R2
+R3
+R4
+R5
+L0 52722
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtstratixii_oct
+R21
+!i10b 1
+!s100 ignJe:gQMC?XzbB?A<V^a0
+I2oT5FC<l`eXO^eb:[1oDY2
+R1
+R2
+R3
+R4
+R5
+L0 55856
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsyncram
+R0
+!i10b 1
+!s100 K:Qc=Y0o3h>fB?4Q3W7c?1
+Ij^Dj19eTdO2na5QVJBFXa1
+R1
+R2
+R3
+R4
+R5
+L0 47592
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsyncram_body
+R0
+!i10b 1
+!s100 :nldbX^9KgVY2hWhgE6P^0
+I:Fk0=``Ol`=o7TUDn[Ie@0
+R1
+R2
+R3
+R4
+R5
+L0 47886
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vALU
+R19
+!i10b 1
+!s100 U0aIK]m9mmoP[Dm[h6cBX2
+ISNUWizi2k1gZk;BfYKflj0
+R1
+R2
+w1727528202
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v
+L0 1
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v|
+!i113 1
+R10
+R11
+n@a@l@u
+vAluDecoder
+R19
+!i10b 1
+!s100 B2k6RF=zTDY2LVM0<X^Fb1
+ICKMP?o]m^L=F:M>PBO9g22
+R1
+R2
+w1726860204
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder.v|
+!i113 1
+R10
+R11
+n@alu@decoder
+vAluDecoder_tb
+R19
+!i10b 1
+!s100 AKQ2PKGml:fS]?Bz7_RRL3
+I`ck;nl9bFc7MPMEYd@gTd2
+R1
+R2
+w1727689519
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder_tb.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder_tb.v|
+!i113 1
+R10
+R11
+n@alu@decoder_tb
+varm_m_cntr
+R22
+!i10b 1
+!s100 aE>Dk`dHV;WL1F5DL`IJe0
+ImjA[NLieN41a<3Ebd<4Em3
+R1
+R2
+R3
+R4
+R5
+L0 6560
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+varm_n_cntr
+R22
+!i10b 1
+!s100 XVOhjdU?l`B?8Uf;M45`N2
+IW3mJ6QM]0`N@2ze?jJ4]41
+R1
+R2
+R3
+R4
+R5
+L0 6640
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+varm_scale_cntr
+R22
+!i10b 1
+!s100 j]gN?cGBNo4nUKi^cZIh[0
+I@eRgh9b0bzEghBVnEQW<z3
+R1
+R2
+R3
+R4
+R5
+L0 6722
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vBtoH7bit
+Z23 !s110 1729523218
+!i10b 1
+!s100 M6AX9K5mo>JB>D3@oh`l?0
+I@0g5XP4c^QBTkQUDQ4jOe3
+R1
+R2
+w1689711318
+8E:/4th Semister/DLD/B to H/BtoH7bit.v
+FE:/4th Semister/DLD/B to H/BtoH7bit.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z24 !s108 1729523218.000000
+!s107 E:/4th Semister/DLD/B to H/BtoH7bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/4th Semister/DLD/B to H/BtoH7bit.v|
+!i113 1
+R10
+R11
+n@bto@h7bit
+vcda_m_cntr
+R22
+!i10b 1
+!s100 :_<zBWUomnj5alzgCU8:]0
+I^nH425C4d4;ah:<T_:KLY3
+R1
+R2
+R3
+R4
+R5
+L0 14499
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vcda_n_cntr
+R22
+!i10b 1
+!s100 nV^XiEi5JIcj0HOIXaGc03
+IjWnj`d[D?Q[UA04:T@2S@1
+R1
+R2
+R3
+R4
+R5
+L0 14580
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vcda_scale_cntr
+R22
+!i10b 1
+!s100 4J1MoLY9=kLfU@38IMIjc2
+IUWmEmNE4eHoe^FoUO?F^Z0
+R1
+R2
+R3
+R4
+R5
+L0 14651
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vcomplex_arithmetic_unit
+R21
+!i10b 1
+!s100 T88`RGm=5N8^8Q9USFf8@0
+I>MZNm6OcV;_b3YZOE1R]o3
+R1
+R2
+Z25 w1728676648
+Z26 8C:/Users/PC/Desktop/7th Semister/VLSI/SabrinaOEL.v
+Z27 FC:/Users/PC/Desktop/7th Semister/VLSI/SabrinaOEL.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z28 !s108 1729523216.000000
+Z29 !s107 C:/Users/PC/Desktop/7th Semister/VLSI/SabrinaOEL.v|
+Z30 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/7th Semister/VLSI/SabrinaOEL.v|
+!i113 1
+R10
+R11
+vController
+Z31 !s110 1729523212
+!i10b 1
+!s100 YeYDabYg]Bmaj972gC1cS0
+IIl?@3@ZN7>6<zi]=d2bBA0
+R1
+R2
+w1727689860
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller.v
+L0 1
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller.v|
+!i113 1
+R10
+R11
+n@controller
+vController1
+R21
+!i10b 1
+!s100 3IEN9mXd6KP8Y;SSkcb0c0
+I^SY>`ZX][9Wfd;fi?Og:I2
+R1
+R2
+w1728655774
+8C:/Users/PC/Desktop/fyd/PipelinedProcessor/Controller1.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessor/Controller1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessor/Controller1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessor/Controller1.v|
+!i113 1
+R10
+R11
+n@controller1
+vController2
+R23
+!i10b 1
+!s100 5QNBVgl`D;mL2<Da]nEmR1
+ITmVR5PkVR_oX64[2VKEjN2
+R1
+R2
+w1729512554
+8C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/controller2.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/controller2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/controller2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/controller2.v|
+!i113 1
+R10
+R11
+n@controller2
+vController_tb
+R19
+!i10b 1
+!s100 9H7@c@<[81a4HEG1E<Kh:1
+IKj>^9aTn]BWZnAh^2Od`O0
+R1
+R2
+w1727687772
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller_tb.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller_tb.v|
+!i113 1
+R10
+R11
+n@controller_tb
+vcycloneiiigl_post_divider
+R22
+!i10b 1
+!s100 @9Y`?FFYTN>9NX;gW1OfG1
+IWDN`@XInST3oH6Qc@kk>Q3
+R1
+R2
+R3
+R4
+R5
+L0 18369
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vDataMemory
+R31
+!i10b 1
+!s100 aa_jbG1DVZ<?V4B7OQM:f2
+INTmzUEhVllTX7Uje=WUb>0
+R1
+R2
+w1728584307
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z32 !s108 1729523212.000000
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v|
+!i113 1
+R10
+R11
+n@data@memory
+vDataPath
+R31
+!i10b 1
+!s100 6gEh4VQR[[V7zz3nJD6kL2
+If3BiH5gT:i4U03=O2Ghk:1
+R1
+R2
+w1728587528
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath.v
+L0 1
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath.v|
+!i113 1
+R10
+R11
+n@data@path
+vDataPath_tb
+R31
+!i10b 1
+!s100 ]JPmQnR3EOLHGHg6MomBQ1
+I9:bD5o]PITNc]kQAF00jc0
+R1
+R2
+w1727776357
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath_tb.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath_tb.v|
+!i113 1
+R10
+R11
+n@data@path_tb
+vdcfifo
+R0
+!i10b 1
+!s100 >_QjdB6M?Fk4HL;6^^<ME2
+IEzY6GS_zN1d8_`fFfml^P0
+R1
+R2
+R3
+R4
+R5
+L0 31729
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_async
+R0
+!i10b 1
+!s100 d5P=n]IHmnOZ9hZz[fWdh1
+IP`oAzd=Nl_m`>33b>RRRD2
+R1
+R2
+R3
+R4
+R5
+L0 29930
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_dffpipe
+R0
+!i10b 1
+!s100 G6:Pz;PaegaLY=LbNb1aj2
+IU@KXd5=;72glS>A`fA5l[1
+R1
+R2
+R3
+R4
+R5
+L0 29700
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_fefifo
+R0
+!i10b 1
+!s100 [S5CZc=BlVazbZ1>iU@^:0
+I`SB=WFo:m?A7_]9L29kL@3
+R1
+R2
+R3
+R4
+R5
+L0 29778
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_low_latency
+R0
+!i10b 1
+!s100 IQ4BkE1m]LoK6d_TWCG603
+I^Re;9m490z=Z;6A?Td=cZ3
+R1
+R2
+R3
+R4
+R5
+L0 30781
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_mixed_widths
+R0
+!i10b 1
+!s100 CJX4jRYM4PgegWl0iQXAi2
+IJ>f^PnPe8P@984aE9E3K`1
+R1
+R2
+R3
+R4
+R5
+L0 31399
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_sync
+R0
+!i10b 1
+!s100 Pbi<kMS?7L<S353V86kK^1
+IM?19KILcAaXRUhj53=b3>2
+R1
+R2
+R3
+R4
+R5
+L0 30472
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdffp
+R22
+!i10b 1
+!s100 SnNjJNaU3KC[OThjodVFi2
+IP_h[3C6^C@IAY@[b?Mh2I1
+R1
+R2
+R3
+R4
+R5
+L0 2338
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdummy_hub
+R21
+!i10b 1
+!s100 i8_deI@ZM`MghmlNU7?Vi2
+I]H<kla^R;E3EG2OE;Yoh80
+R1
+R2
+R3
+R4
+R5
+L0 55330
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vExtend
+R31
+!i10b 1
+!s100 ;?i_kNQ1g4lSMHO823m5]2
+I`zERIoUZY?JQ`H6AHT68N0
+R1
+R2
+w1726901832
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v
+L0 1
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v|
+!i113 1
+R10
+R11
+n@extend
+vFF32
+R31
+!i10b 1
+!s100 NcGz3Fm?1YFd[2g5PcmbU2
+Iz:Qei_8cI?>CPRX_84`Bo0
+R1
+R2
+w1726952301
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+L0 1
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v|
+!i113 1
+R10
+R11
+n@f@f32
+vflexible_lvds_rx
+R0
+!i10b 1
+!s100 W9z8MEh:V@SWRS`?S3m8z0
+Ii@lBR=?Dn<Cz9ajb[4Vga2
+R1
+R2
+R3
+R4
+R5
+L0 25898
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vflexible_lvds_tx
+R0
+!i10b 1
+!s100 jTcRG:ZaXjOM?F8VcYB2<2
+IUP>j:^7z_M_;LfbjD`Jc81
+R1
+R2
+R3
+R4
+R5
+L0 29140
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vForwardingUnit
+R21
+!i10b 1
+!s100 AE:za`PDd2m:n=Tafn;[J2
+I4JckZ;dYbJN_hdmo<P8?;3
+R1
+R2
+w1729159614
+8C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/ForwardingUnit.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/ForwardingUnit.v
+L0 1
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/ForwardingUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/ForwardingUnit.v|
+!i113 1
+R10
+R11
+n@forwarding@unit
+vHazardUnit
+!s110 1729794577
+!i10b 1
+!s100 TQ`GaXf;l00:be=B<nGf<2
+IH`Vbn@P]5P0ccQ;n>CIOE1
+R1
+R2
+w1729794510
+8C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/HazardUnit.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/HazardUnit.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1729794577.000000
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/HazardUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/HazardUnit.v|
+!i113 1
+R10
+R11
+n@hazard@unit
+vINST
+Z33 !s110 1729523213
+!i10b 1
+!s100 d?AzeRN`mH4c3[C4>BgCK2
+IbBEIWnHTL:WkaJZ@<Cd8R2
+R1
+R2
+w1729246593
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v
+Z34 L0 40
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v|
+!i113 1
+R10
+R11
+n@i@n@s@t
+vINSTp
+!s110 1729064363
+!i10b 1
+!s100 I1UXPdjVfMKjmg9?c^k122
+IYC^?h7QLXJcG=3eED6fcn3
+R1
+R2
+w1729063315
+8C:/Users/PC/Desktop/fyd/PipelinedProcessor/INSTp_bb.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessor/INSTp_bb.v
+Z35 L0 35
+R6
+r1
+!s85 0
+31
+!s108 1729064363.000000
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessor/INSTp_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessor/INSTp_bb.v|
+!i113 1
+R10
+R11
+n@i@n@s@tp
+vinstruction_fetch
+R12
+!i10b 1
+!s100 SC0jC^VM6a]Jdb9`6_jkW1
+I?h7gE9c9FXRlo09icZZ?G2
+R1
+R2
+R13
+R14
+R15
+L0 50
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vInstructionMemory
+R33
+!i10b 1
+!s100 I?jM58HAf@?C>]jz090Di0
+IQ03EXcS2;FFVXOYh7QShI0
+R1
+R2
+w1729244769
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z36 !s108 1729523213.000000
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v|
+!i113 1
+R10
+R11
+n@instruction@memory
+vInstructionMemory1
+!s110 1729064364
+!i10b 1
+!s100 ]eJDFGABSA9F:Y??S8jMT3
+IW7Ni3EMaQZ=TUP``Y@gzF2
+R1
+R2
+w1729064059
+8C:/Users/PC/Desktop/fyd/PipelinedProcessor/InstructionMemory1.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessor/InstructionMemory1.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1729064364.000000
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessor/InstructionMemory1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessor/InstructionMemory1.v|
+!i113 1
+R10
+R11
+n@instruction@memory1
+vinstructmem
+R12
+!i10b 1
+!s100 3VGnR7cL?OAVVbiFb3bf?3
+I@_f_cEW0@;=VV6a4La?ZP2
+R1
+R2
+R13
+R14
+R15
+L0 21
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vjtag_tap_controller
+R21
+!i10b 1
+!s100 AnS3QEzANDB@We7faAz`b0
+Id;GgI3Dj3n5mdG7b<^]Hb0
+R1
+R2
+R3
+R4
+R5
+L0 54873
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vlcell
+R22
+!i10b 1
+!s100 5QGV:R[KdXJ5TR1bkQiUU0
+I=i8MKB<L9WCEf_ZYZH4fi0
+R1
+R2
+R3
+R4
+R5
+R35
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vMainDecoder
+R33
+!i10b 1
+!s100 V>k2;<`mY`Hf=o6WXcD=c1
+I=DA9MZcWn?7K8>Q:JMA7V1
+R1
+R2
+w1726901805
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v|
+!i113 1
+R10
+R11
+n@main@decoder
+vMainDecoder_tb
+R33
+!i10b 1
+!s100 NMVlOB@82NN18ZCHEHSKJ0
+II^K_CRGRaGIBE6TJ]^fG03
+R1
+R2
+w1727688462
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder_tb.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder_tb.v|
+!i113 1
+R10
+R11
+n@main@decoder_tb
+vMF_cycloneiii_pll
+R22
+!i10b 1
+!s100 i8Pz?4iB:f]]S6g?8liLj1
+IXX@mXk6aJe5<:IYK4mHJi0
+R1
+R2
+R3
+R4
+R5
+L0 14778
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiii_pll
+vMF_cycloneiiigl_m_cntr
+R22
+!i10b 1
+!s100 ;Ham8kVCc_eoORKCnKBCm2
+IR2b[7<W6LOESZ7gTHHlY62
+R1
+R2
+R3
+R4
+R5
+L0 18107
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiiigl_m_cntr
+vMF_cycloneiiigl_n_cntr
+R22
+!i10b 1
+!s100 Y6P6>dF6[=ng@eP]XcCbT1
+IKnWcjfNH8UWh4j>lcODOM1
+R1
+R2
+R3
+R4
+R5
+L0 18188
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiiigl_n_cntr
+vMF_cycloneiiigl_pll
+R0
+!i10b 1
+!s100 ?zF?YB::hdSOAl`J3dMKg0
+IlYOD7=ogGbc46naD?PBfG2
+R1
+R2
+R3
+R4
+R5
+L0 18458
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiiigl_pll
+vMF_cycloneiiigl_scale_cntr
+R22
+!i10b 1
+!s100 F@V]ZGa7Ngd1a`457Y=:J3
+I=3I0`d_h6iIIo04<QGl3:0
+R1
+R2
+R3
+R4
+R5
+L0 18259
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiiigl_scale_cntr
+vMF_pll_reg
+R22
+!i10b 1
+!s100 0HDLA_Ae606hC35WQ6^7]2
+IVlh1<m]]>LTAN4I9H3O2?3
+R1
+R2
+R3
+R4
+R5
+L0 2695
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_pll_reg
+vMF_stratix_pll
+R22
+!i10b 1
+!s100 kITDCAAk7nE?EU[@=@9Oo1
+Ig_aRUBnejX>C;9S4G?C4g3
+R1
+R2
+R3
+R4
+R5
+L0 2754
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_stratix_pll
+vMF_stratixii_pll
+R22
+!i10b 1
+!s100 m<j8S?b80d7m:cRfTMSCR0
+IMkmAzJV:Ski2^KZ]P75ER0
+R1
+R2
+R3
+R4
+R5
+L0 6845
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_stratixii_pll
+vMF_stratixiii_pll
+R22
+!i10b 1
+!s100 >>583Yjn4HPZb7`:4`;I@1
+IlmdXJlXdN45RVGdl@[jKn2
+R1
+R2
+R3
+R4
+R5
+L0 10676
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_stratixiii_pll
+vMux
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 ]YCiHC@=cR;z51CWTS5m73
+IbAae>abNeS;_KTA_N@WWe0
+Z37 dC:/Users/PC/Desktop/fyd/Single Cycle Processor/SCP
+Z38 w1727851718
+Z39 8C:\Users\PC\Desktop\7th Semister\Embeded\tb.v
+Z40 FC:\Users\PC\Desktop\7th Semister\Embeded\tb.v
+L0 1
+R6
+Z41 !s108 1727851722.000000
+Z42 !s107 C:\Users\PC\Desktop\7th Semister\Embeded\tb.v|
+Z43 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\PC\Desktop\7th Semister\Embeded\tb.v|
+!i113 1
+R10
+R11
+n@mux
+vMux2by1
+R33
+!i10b 1
+!s100 7Gl;H0cC<ddW98LiaU[GQ2
+IQLHaHDa[b?iRYS2cn1fnn3
+R1
+R2
+w1726952988
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v|
+!i113 1
+R10
+R11
+n@mux2by1
+vMux3by1
+R33
+!i10b 1
+!s100 :9a6gcGO<KT2P>iX=MDZ?3
+I@9`^WQ2]hXoEUm1HSBP;83
+R1
+R2
+w1726988189
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v|
+!i113 1
+R10
+R11
+n@mux3by1
+vMux_tb
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 b;VDVXKZf>=R52Lh@J3]P1
+I:M7IUR<>ZOBD4l?<>_Y:C3
+R37
+R38
+R39
+R40
+L0 13
+R6
+R41
+R42
+R43
+!i113 1
+R10
+R11
+n@mux_tb
+vparallel_add
+R0
+!i10b 1
+!s100 _@fI510=Fb_[JPi?D;>k70
+IXAmH<J7ZcZT22iFDgDY_13
+R1
+R2
+R3
+R4
+R5
+L0 51506
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vPipelinedProcessor
+R21
+!i10b 1
+!s100 N49_];M?I6V;UCJ8UVW?00
+IhM@^lI3C5iJZj;`U0>?dl2
+R1
+R2
+w1729244866
+8C:/Users/PC/Desktop/fyd/PipelinedProcessor/PipelinedProcessor.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessor/PipelinedProcessor.v
+L0 1
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessor/PipelinedProcessor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessor/PipelinedProcessor.v|
+!i113 1
+R10
+R11
+n@pipelined@processor
+vPipelinedProcessorwithoutHazard
+!s110 1730029165
+!i10b 1
+!s100 lgXFc=zC3R6PXRb`iL<Wc1
+I39eB]79>Q<ZDW:[mkgQIO2
+R1
+R2
+w1730029153
+8C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1730029165.000000
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v|
+!i113 1
+R10
+R11
+n@pipelined@processorwithout@hazard
+vpll_iobuf
+R22
+!i10b 1
+!s100 Y>n^z1AP@XWBOng[;X`=B1
+IeWC15FcTkYR;`=KY[9i8^2
+R1
+R2
+R3
+R4
+R5
+L0 2371
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vprogramc
+R12
+!i10b 1
+!s100 TSDRgVl<DR=c[fnVLHnX10
+IQS]1`T[Qb^<aQAA0U:Cfi0
+R1
+R2
+R13
+R14
+R15
+L0 1
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vprogramc_tb
+R12
+!i10b 1
+!s100 6B>WHW_HP>1b13V:8SPGD1
+I?D[ZPOE7Z<F_gUI>6:JmN2
+R1
+R2
+R13
+R14
+R15
+L0 63
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vRAM
+R31
+!i10b 1
+!s100 4_Z3J;Y_2VkTViS4HMz[c2
+I<CK`[`>0d6P`C0f61H6W_1
+R1
+R2
+w1729012022
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v
+R34
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v|
+!i113 1
+R10
+R11
+n@r@a@m
+vRAM1
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 6a5DzSWOWoHB4F:bHSb9`3
+IUdDU2G?FToIl?be0jXG3]2
+R37
+w1727640361
+8C:/Users/PC/Desktop/fyd/Single Cycle Processor/DataMemory/RAM1.v
+FC:/Users/PC/Desktop/fyd/Single Cycle Processor/DataMemory/RAM1.v
+R34
+R6
+!s108 1727810807.000000
+!s107 C:/Users/PC/Desktop/fyd/Single Cycle Processor/DataMemory/RAM1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/Single Cycle Processor/DataMemory/RAM1.v|
+!i113 1
+R10
+R11
+n@r@a@m1
+vRAM_bb
+!i10b 1
+R1
+r1
+!s85 0
+31
+!s100 G3`XUV9feY8zJbZnGn6_>2
+IIz7nglCYS<AN;Fa@L>D062
+R37
+w1727534358
+8C:/Users/PC/Desktop/fyd/Single Cycle Processor/DataMemory/RAM_bb_bb.v
+FC:/Users/PC/Desktop/fyd/Single Cycle Processor/DataMemory/RAM_bb_bb.v
+R35
+R6
+!s108 1727810806.000000
+!s107 C:/Users/PC/Desktop/fyd/Single Cycle Processor/DataMemory/RAM_bb_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/Single Cycle Processor/DataMemory/RAM_bb_bb.v|
+!i113 1
+R10
+R11
+n@r@a@m_bb
+vRegister
+R33
+!i10b 1
+!s100 c_mAiajOjB899iD8fBNo43
+IToe?]FzIk>Whbl>Yi^3GM1
+R1
+R2
+w1727617365
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register/Register.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register/Register.v
+L0 1
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register/Register.v|
+!i113 1
+R10
+R11
+n@register
+vRegister1
+R21
+!i10b 1
+!s100 Jhl[K0KQ=k?;YOhIbmRCK3
+IFP5a206nKQOJ:N1Z:U:aS2
+R1
+R2
+w1729192474
+8C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1.v|
+!i113 1
+R10
+R11
+n@register1
+vRegister1_tb
+!s110 1729186521
+!i10b 1
+!s100 NhSR95H2Q[>8RHUDcOIBW2
+I;6AA5Cf5oMCbFV@eN7U6`3
+R1
+R2
+w1729186431
+8C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1_tb.v
+FC:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1729186521.000000
+!s107 C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1_tb.v|
+!i113 1
+R10
+R11
+n@register1_tb
+vscfifo
+R0
+!i10b 1
+!s100 =oNbmn[I6Z1hI6gMi^LH=0
+ICWC:ogkg89cS<W3g2]zER0
+R1
+R2
+R3
+R4
+R5
+L0 51675
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vSCP
+R22
+!i10b 1
+!s100 khMz:OO`VcEJQddJUTkg_3
+IA[eH25XKbNF]XiXPZ4nmM3
+R1
+R2
+w1728584334
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP.v|
+!i113 1
+R10
+R11
+n@s@c@p
+vSCP_tb
+R22
+!i10b 1
+!s100 X_QNc?m`2eX2VkAIfk_m@1
+IBAaNJKMX^l[?oARBUPFb43
+R1
+R2
+w1728914895
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP_tb.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP_tb.v|
+!i113 1
+R10
+R11
+n@s@c@p_tb
+vSCPF
+R19
+!i10b 1
+!s100 Wfd=WVlW04KiU6M;TM4^z1
+IXgLm:?LR:WgQl]o=X6_ei2
+R1
+R2
+w1728588399
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF.v
+L0 1
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF.v|
+!i113 1
+R10
+R11
+n@s@c@p@f
+vSCPP_tb
+R22
+!i10b 1
+!s100 NKoCi1Og<4PfKB1J:PMVB1
+Ij^30YYgMNP5N]6gGDY`;d2
+R1
+R2
+w1728575832
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCPP_tb.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCPP_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCPP_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCPP_tb.v|
+!i113 1
+R10
+R11
+n@s@c@p@p_tb
+vsignal_gen
+R21
+!i10b 1
+!s100 CFUPOV=I]>[JoSHBml`0O1
+I7aKOmDNMFH>Om@S?2UH2E2
+R1
+R2
+R3
+R4
+R5
+L0 54306
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsld_signaltap
+R21
+!i10b 1
+!s100 ;bNfnE=JkH5`M:Gei65gh3
+I;ef<PPK>jl_@i>z><ado61
+R1
+R2
+R3
+R4
+R5
+L0 55714
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsld_virtual_jtag
+R21
+!i10b 1
+!s100 =dP0:]MZD42oAG]526k0F0
+I[2^b>N[D^jBW^RH3TnfL=1
+R1
+R2
+R3
+R4
+R5
+L0 55587
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsld_virtual_jtag_basic
+R21
+!i10b 1
+!s100 4=QY<mcj^X^`A]];EEmFH3
+Ie[BjCIRbfhWe@O0TagMXK2
+R1
+R2
+R3
+R4
+R5
+L0 56075
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratix_lvds_rx
+R0
+!i10b 1
+!s100 UTKR]VdDeZT>LbSY;S:H_1
+I[L<Hje1XW`9=<UZT4[POT1
+R1
+R2
+R3
+R4
+R5
+L0 25061
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratix_tx_outclk
+R0
+!i10b 1
+!s100 4Ui3ElJ34X8<LVV9ef0GJ3
+IYO=44M]z2fikcQKRFE?Ef2
+R1
+R2
+R3
+R4
+R5
+L0 28931
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixgx_dpa_lvds_rx
+R0
+!i10b 1
+!s100 _X]M>KzVkG7lUE9h]U`5`2
+Iob=bI4>7B?IYnXMM`XoSd3
+R1
+R2
+R3
+R4
+R5
+L0 25169
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixii_lvds_rx
+R0
+!i10b 1
+!s100 knHlz:fg3PUY;ldPQU=DZ2
+Ih3hNVHd9VdO22bY`_P`be3
+R1
+R2
+R3
+R4
+R5
+L0 25572
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixii_tx_outclk
+R0
+!i10b 1
+!s100 5AcP::Tlc9]5j7hkY;D4i0
+ILRX=gz]ZdbO?aFzadz;@_2
+R1
+R2
+R3
+R4
+R5
+L0 29039
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixiii_lvds_rx
+R0
+!i10b 1
+!s100 40^Sl2;KWo@`CV8djg@0E0
+IM63XCIZ8;cjY2zZG`J:i[3
+R1
+R2
+R3
+R4
+R5
+L0 26371
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixiii_lvds_rx_channel
+R0
+!i10b 1
+!s100 nZ15@anWcG^ZUo9aDeUok0
+I45?GUIHRZ?V@HdgMmT;b<0
+R1
+R2
+R3
+R4
+R5
+L0 26553
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixiii_lvds_rx_dpa
+R0
+!i10b 1
+!s100 UYlQ7Hb1fEX5K=N[1TOTO1
+Ia@zOFLg2E0Tizn_>:0P:53
+R1
+R2
+R3
+R4
+R5
+L0 27162
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixv_local_clk_divider
+R0
+!i10b 1
+!s100 CLJ3F]CIGoaoiYzA7@];A1
+IM3A5AKdDE0z8;YW1T0kP71
+R1
+R2
+R3
+R4
+R5
+L0 28837
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstx_m_cntr
+R22
+!i10b 1
+!s100 ?>o7Q<XCBPSD4HoGd5:>A0
+I@C];@5h^l]`Wc8FW3A39^3
+R1
+R2
+R3
+R4
+R5
+L0 2397
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstx_n_cntr
+R22
+!i10b 1
+!s100 ?P@b:4DafJ_^m9ka]DFD53
+IzVE2BK_OF2`SUP]aRYZk23
+R1
+R2
+R3
+R4
+R5
+L0 2475
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstx_scale_cntr
+R22
+!i10b 1
+!s100 a@[2eTC]]LIFm0QFl5WUj2
+IZI3YHN^jKz6NnoSKR7gKL0
+R1
+R2
+R3
+R4
+R5
+L0 2560
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtb_complex_arithmetic_unit
+R21
+!i10b 1
+!s100 X^2Y>2;Yc<Mzj`2MRz3HT3
+I1WVf8Vj;T@mag`0YY:Gn:2
+R1
+R2
+R25
+R26
+R27
+L0 51
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+vtb_InstructionMemory
+R31
+!i10b 1
+!s100 fT;f:1_1JoERmE=`U3GYR3
+I>@VWY_fTL]Y2@WhAWBlI;3
+R1
+R2
+w1727848647
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/IM_tb.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/IM_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/IM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/IM_tb.v|
+!i113 1
+R10
+R11
+ntb_@instruction@memory
+vttn_m_cntr
+R22
+!i10b 1
+!s100 ;3NK]8TY<L]eQ[IJY0gF32
+I_Q8:POIjoQO@]:T=;^n0?2
+R1
+R2
+R3
+R4
+R5
+L0 10397
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vttn_n_cntr
+R22
+!i10b 1
+!s100 7nCN0ZiXcEmbIBT5Y>_4a1
+Iie9]WoXQfd:8KLUn@g8ha1
+R1
+R2
+R3
+R4
+R5
+L0 10478
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vttn_scale_cntr
+R22
+!i10b 1
+!s100 _jZZ0@3D`H8_VG516F<O_0
+In^;<R;`W9:>8PFIPVIc]:0
+R1
+R2
+R3
+R4
+R5
+L0 10549
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

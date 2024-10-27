@@ -1,0 +1,401 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/simulation/modelsim
+vAdder
+Z1 !s110 1728574247
+!i10b 1
+!s100 cVSI^29Rcfc<f51<8EBZc1
+Ie25KOEKbVb:afnjRHVlQ=3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1726951232
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder/Adder.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder/Adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1728574247.000000
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder/Adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder/Adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Adder
+Z6 tCvgOpt 0
+n@adder
+vALU
+R1
+!i10b 1
+!s100 U0aIK]m9mmoP[Dm[h6cBX2
+IS[QCWI57oTccML1zoDXhU3
+R2
+R0
+w1727528202
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU
+R6
+n@a@l@u
+vAluDecoder
+R1
+!i10b 1
+!s100 B2k6RF=zTDY2LVM0<X^Fb1
+I5^RlIY5TW5Ekz]AfmOUO53
+R2
+R0
+w1726860204
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder/AluDecoder.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/AluDecoder
+R6
+n@alu@decoder
+vController
+R1
+!i10b 1
+!s100 YeYDabYg]Bmaj972gC1cS0
+IVWCDfzO:N5]enAb2i7hg;2
+R2
+R0
+w1727689860
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller/Controller.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Controller
+R6
+n@controller
+vDataMemory
+R1
+!i10b 1
+!s100 aa_jbG1DVZ<?V4B7OQM:f2
+IKGC8^i0B_fRo:5OPi>2JK0
+R2
+R0
+w1728573513
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v|
+!i113 1
+R5
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory
+R6
+n@data@memory
+vDataPath
+R1
+!i10b 1
+!s100 6gEh4VQR[[V7zz3nJD6kL2
+IO1Na0XIDGlENO6kc@aj;R1
+R2
+R0
+w1727774797
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath/DataPath.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataPath
+R6
+n@data@path
+vExtend
+R1
+!i10b 1
+!s100 ;?i_kNQ1g4lSMHO823m5]2
+In9LzP[ThMQ=@RJ9`Q?oD<2
+R2
+R0
+w1726901832
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend
+R6
+n@extend
+vFF32
+R1
+!i10b 1
+!s100 NcGz3Fm?1YFd[2g5PcmbU2
+I_3^3i?G;Y@B>4Q?^fe^B?1
+R2
+R0
+w1726952301
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32
+R6
+n@f@f32
+vINST
+Z8 !s110 1728574246
+!i10b 1
+!s100 G4Lh?Q6^jmOGC^zg1XPLa0
+I>goSNfBT?mkI<DWo=2=`c0
+R2
+R0
+w1728564841
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v
+Z9 L0 40
+R3
+r1
+!s85 0
+31
+Z10 !s108 1728574246.000000
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/INST.v|
+!i113 1
+R5
+Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory}
+R6
+n@i@n@s@t
+vInstructionMemory
+R1
+!i10b 1
+!s100 fBn48KfFW`k451nMR59Th1
+I4nTTGU;63U9>TSL2MWfhm1
+R2
+R0
+w1727614276
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/InstructionMemory.v|
+!i113 1
+R5
+R11
+R6
+n@instruction@memory
+vMainDecoder
+R8
+!i10b 1
+!s100 V>k2;<`mY`Hf=o6WXcD=c1
+I0c[Rik9j9:38:lXeG7Vaa2
+R2
+R0
+w1726901805
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder
+R6
+n@main@decoder
+vMux2by1
+R8
+!i10b 1
+!s100 7Gl;H0cC<ddW98LiaU[GQ2
+I58MDCVT=FbGH;j@`@TLcL0
+R2
+R0
+w1726952988
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1
+R6
+n@mux2by1
+vMux3by1
+R8
+!i10b 1
+!s100 :9a6gcGO<KT2P>iX=MDZ?3
+Ia5Zhh`LmeP1aFknJTIJ<U1
+R2
+R0
+w1726988189
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1
+R6
+n@mux3by1
+vRAM
+R8
+!i10b 1
+!s100 4_Z3J;Y_2VkTViS4HMz[c2
+I8SWGbAciLjeQzG<8CUBWN1
+R2
+R0
+w1727532688
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v|
+!i113 1
+R5
+R7
+R6
+n@r@a@m
+vRegister
+R8
+!i10b 1
+!s100 c_mAiajOjB899iD8fBNo43
+I=Z3?bSb>8OkAEz66b=6R32
+R2
+R0
+w1727617365
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register/Register.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register/Register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register/Register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register/Register.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Register
+R6
+n@register
+vSCP
+R8
+!i10b 1
+!s100 khMz:OO`VcEJQddJUTkg_3
+IYYgI]4F`a8OHiNWFH<ZUi0
+R2
+R0
+w1727691324
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP/SCP.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCP
+R6
+n@s@c@p
+vSCPF
+R1
+!i10b 1
+!s100 ?M8ckTEeJB`lQJCOj6lbn3
+IHa7bQ_7@T=A:<zg5g1X391
+R2
+R0
+w1727621403
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/SCPF.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF
+R6
+n@s@c@p@f
