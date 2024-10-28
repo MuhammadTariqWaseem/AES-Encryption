@@ -1,5 +1,5 @@
 Analysis & Synthesis report for PipelinedProcessorwithoutHazard
-Mon Oct 21 22:28:14 2024
+Mon Oct 28 15:40:53 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -15,59 +15,61 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
   9. Analysis & Synthesis IP Cores Summary
- 10. Logic Cells Representing Combinational Loops
- 11. Registers Removed During Synthesis
- 12. General Register Statistics
- 13. Inverted Register Statistics
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for InstructionMemory:IM|INST:INST_inst0|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated
- 16. Source assignments for InstructionMemory:IM|INST:INST_inst1|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated
- 17. Source assignments for InstructionMemory:IM|INST:INST_inst2|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated
- 18. Source assignments for InstructionMemory:IM|INST:INST_inst3|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated
- 19. Source assignments for DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1
- 20. Source assignments for DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1
- 21. Source assignments for DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1
- 22. Source assignments for DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1
- 23. Parameter Settings for User Entity Instance: Mux2by1:pcmux
- 24. Parameter Settings for User Entity Instance: FF32:ff0
+ 10. Registers Removed During Synthesis
+ 11. General Register Statistics
+ 12. Inverted Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for InstructionMemory:IM|INST:INST_inst0|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated
+ 15. Source assignments for InstructionMemory:IM|INST:INST_inst1|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated
+ 16. Source assignments for InstructionMemory:IM|INST:INST_inst2|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated
+ 17. Source assignments for InstructionMemory:IM|INST:INST_inst3|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated
+ 18. Source assignments for DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1
+ 19. Source assignments for DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1
+ 20. Source assignments for DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1
+ 21. Source assignments for DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1
+ 22. Parameter Settings for User Entity Instance: Mux2by1:pcmux
+ 23. Parameter Settings for User Entity Instance: FF32:ff0
+ 24. Parameter Settings for User Entity Instance: Mux2by1:stall2
  25. Parameter Settings for User Entity Instance: InstructionMemory:IM|INST:INST_inst0|altsyncram:altsyncram_component
  26. Parameter Settings for User Entity Instance: InstructionMemory:IM|INST:INST_inst1|altsyncram:altsyncram_component
  27. Parameter Settings for User Entity Instance: InstructionMemory:IM|INST:INST_inst2|altsyncram:altsyncram_component
  28. Parameter Settings for User Entity Instance: InstructionMemory:IM|INST:INST_inst3|altsyncram:altsyncram_component
  29. Parameter Settings for User Entity Instance: Mux2by1:stall1
- 30. Parameter Settings for User Entity Instance: FF32:ff1
- 31. Parameter Settings for User Entity Instance: Mux2by1:ins
- 32. Parameter Settings for User Entity Instance: Controller2:c|Mux2by1:srcbmux
- 33. Parameter Settings for User Entity Instance: FF32:ff2
- 34. Parameter Settings for User Entity Instance: Mux3by1:muxA
- 35. Parameter Settings for User Entity Instance: Mux3by1:muxB
- 36. Parameter Settings for User Entity Instance: Mux2by1:srcbmux
- 37. Parameter Settings for User Entity Instance: FF32:ff3
- 38. Parameter Settings for User Entity Instance: DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component
- 39. Parameter Settings for User Entity Instance: DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component
- 40. Parameter Settings for User Entity Instance: DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component
- 41. Parameter Settings for User Entity Instance: DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component
- 42. Parameter Settings for User Entity Instance: FF32:ff4
- 43. Parameter Settings for User Entity Instance: Mux3by1:resultmux
- 44. altsyncram Parameter Settings by Entity Instance
- 45. Port Connectivity Checks: "FF32:ff4"
- 46. Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst3"
- 47. Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst2"
- 48. Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst1"
- 49. Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst0"
- 50. Port Connectivity Checks: "Controller2:c|Mux2by1:srcbmux"
- 51. Port Connectivity Checks: "Mux2by1:ins"
- 52. Port Connectivity Checks: "Adder:a0"
- 53. Port Connectivity Checks: "Mux2by1:stall1"
- 54. Port Connectivity Checks: "InstructionMemory:IM|INST:INST_inst3"
- 55. Port Connectivity Checks: "InstructionMemory:IM|INST:INST_inst2"
- 56. Port Connectivity Checks: "InstructionMemory:IM|INST:INST_inst1"
- 57. Port Connectivity Checks: "InstructionMemory:IM|INST:INST_inst0"
- 58. In-System Memory Content Editor Settings
- 59. Post-Synthesis Netlist Statistics for Top Partition
- 60. Elapsed Time Per Partition
- 61. Analysis & Synthesis Messages
- 62. Analysis & Synthesis Suppressed Messages
+ 30. Parameter Settings for User Entity Instance: Mux2by1:st2
+ 31. Parameter Settings for User Entity Instance: FF32:ff1
+ 32. Parameter Settings for User Entity Instance: Mux2by1:ins
+ 33. Parameter Settings for User Entity Instance: Mux2by1:ins1
+ 34. Parameter Settings for User Entity Instance: Controller2:c|Mux2by1:srcbmux
+ 35. Parameter Settings for User Entity Instance: FF32:ff2
+ 36. Parameter Settings for User Entity Instance: Mux3by1:muxA
+ 37. Parameter Settings for User Entity Instance: Mux3by1:muxB
+ 38. Parameter Settings for User Entity Instance: Mux2by1:srcbmux
+ 39. Parameter Settings for User Entity Instance: FF32:ff3
+ 40. Parameter Settings for User Entity Instance: DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component
+ 41. Parameter Settings for User Entity Instance: DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component
+ 42. Parameter Settings for User Entity Instance: DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component
+ 43. Parameter Settings for User Entity Instance: DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component
+ 44. Parameter Settings for User Entity Instance: FF32:ff4
+ 45. Parameter Settings for User Entity Instance: Mux3by1:resultmux
+ 46. altsyncram Parameter Settings by Entity Instance
+ 47. Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst3"
+ 48. Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst2"
+ 49. Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst1"
+ 50. Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst0"
+ 51. Port Connectivity Checks: "FF32:ff3"
+ 52. Port Connectivity Checks: "Controller2:c|Mux2by1:srcbmux"
+ 53. Port Connectivity Checks: "Mux2by1:ins1"
+ 54. Port Connectivity Checks: "Adder:a0"
+ 55. Port Connectivity Checks: "Mux2by1:stall1"
+ 56. Port Connectivity Checks: "InstructionMemory:IM|INST:INST_inst3"
+ 57. Port Connectivity Checks: "InstructionMemory:IM|INST:INST_inst2"
+ 58. Port Connectivity Checks: "InstructionMemory:IM|INST:INST_inst1"
+ 59. Port Connectivity Checks: "InstructionMemory:IM|INST:INST_inst0"
+ 60. In-System Memory Content Editor Settings
+ 61. Post-Synthesis Netlist Statistics for Top Partition
+ 62. Elapsed Time Per Partition
+ 63. Analysis & Synthesis Messages
+ 64. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -94,13 +96,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct 21 22:28:14 2024       ;
+; Analysis & Synthesis Status     ; Successful - Mon Oct 28 15:40:52 2024       ;
 ; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                   ; PipelinedProcessorwithoutHazard             ;
 ; Top-level Entity Name           ; PipelinedProcessorwithoutHazard             ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 1844                                        ;
+; Total registers                 ; 1815                                        ;
 ; Total pins                      ; 2                                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 2,129,920                                   ;
@@ -277,16 +279,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 1654      ;
+; Estimate of Logic utilization (ALMs needed) ; 1660      ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 1917      ;
-;     -- 7 input functions                    ; 463       ;
-;     -- 6 input functions                    ; 387       ;
-;     -- 5 input functions                    ; 114       ;
-;     -- 4 input functions                    ; 114       ;
-;     -- <=3 input functions                  ; 839       ;
+; Combinational ALUT usage for logic          ; 1764      ;
+;     -- 7 input functions                    ; 468       ;
+;     -- 6 input functions                    ; 464       ;
+;     -- 5 input functions                    ; 229       ;
+;     -- 4 input functions                    ; 215       ;
+;     -- <=3 input functions                  ; 388       ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 1844      ;
+; Dedicated logic registers                   ; 1815      ;
 ;                                             ;           ;
 ; I/O pins                                    ; 2         ;
 ; Total MLAB memory bits                      ; 0         ;
@@ -295,9 +297,9 @@ https://fpgasoftware.intel.com/eula.
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 1672      ;
-; Total fan-out                               ; 23730     ;
-; Average fan-out                             ; 5.84      ;
+; Maximum fan-out                             ; 1767      ;
+; Total fan-out                               ; 24013     ;
+; Average fan-out                             ; 6.19      ;
 +---------------------------------------------+-----------+
 
 
@@ -306,22 +308,22 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                                         ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |PipelinedProcessorwithoutHazard                                                                                                        ; 1917 (13)           ; 1844 (0)                  ; 2129920           ; 0          ; 2    ; 0            ; |PipelinedProcessorwithoutHazard                                                                                                                                                                                                                                                                                                                                            ; PipelinedProcessorwithoutHazard   ; work         ;
-;    |ALU:alu|                                                                                                                            ; 299 (299)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|ALU:alu                                                                                                                                                                                                                                                                                                                                    ; ALU                               ; work         ;
+; |PipelinedProcessorwithoutHazard                                                                                                        ; 1764 (24)           ; 1815 (0)                  ; 2129920           ; 0          ; 2    ; 0            ; |PipelinedProcessorwithoutHazard                                                                                                                                                                                                                                                                                                                                            ; PipelinedProcessorwithoutHazard   ; work         ;
+;    |ALU:alu|                                                                                                                            ; 162 (162)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|ALU:alu                                                                                                                                                                                                                                                                                                                                    ; ALU                               ; work         ;
 ;    |Adder:a0|                                                                                                                           ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Adder:a0                                                                                                                                                                                                                                                                                                                                   ; Adder                             ; work         ;
 ;    |Adder:a1|                                                                                                                           ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Adder:a1                                                                                                                                                                                                                                                                                                                                   ; Adder                             ; work         ;
-;    |Controller2:c|                                                                                                                      ; 25 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Controller2:c                                                                                                                                                                                                                                                                                                                              ; Controller2                       ; work         ;
-;       |MainDecoder:md|                                                                                                                  ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Controller2:c|MainDecoder:md                                                                                                                                                                                                                                                                                                               ; MainDecoder                       ; work         ;
+;    |Controller2:c|                                                                                                                      ; 20 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Controller2:c                                                                                                                                                                                                                                                                                                                              ; Controller2                       ; work         ;
+;       |MainDecoder:md|                                                                                                                  ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Controller2:c|MainDecoder:md                                                                                                                                                                                                                                                                                                               ; MainDecoder                       ; work         ;
 ;       |Mux2by1:srcbmux|                                                                                                                 ; 13 (13)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Controller2:c|Mux2by1:srcbmux                                                                                                                                                                                                                                                                                                              ; Mux2by1                           ; work         ;
 ;    |DataMemory:DM|                                                                                                                      ; 452 (0)             ; 191 (0)                   ; 2097152           ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM                                                                                                                                                                                                                                                                                                                              ; DataMemory                        ; work         ;
 ;       |RAM:RAM_inst0|                                                                                                                   ; 125 (0)             ; 47 (0)                    ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0                                                                                                                                                                                                                                                                                                                ; RAM                               ; work         ;
 ;          |altsyncram:altsyncram_component|                                                                                              ; 125 (0)             ; 47 (0)                    ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                ; altsyncram                        ; work         ;
 ;             |altsyncram_den1:auto_generated|                                                                                            ; 125 (0)             ; 47 (0)                    ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated                                                                                                                                                                                                                                                 ; altsyncram_den1                   ; work         ;
 ;                |altsyncram_lre2:altsyncram1|                                                                                            ; 56 (0)              ; 3 (3)                     ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1                                                                                                                                                                                                                     ; altsyncram_lre2                   ; work         ;
-;                   |decode_61a:rden_decode_a|                                                                                            ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_61a:rden_decode_a                                                                                                                                                                                            ; decode_61a                        ; work         ;
-;                   |decode_61a:rden_decode_b|                                                                                            ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_61a:rden_decode_b                                                                                                                                                                                            ; decode_61a                        ; work         ;
-;                   |decode_dla:decode4|                                                                                                  ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_dla:decode4                                                                                                                                                                                                  ; decode_dla                        ; work         ;
-;                   |decode_dla:decode5|                                                                                                  ; 13 (13)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_dla:decode5                                                                                                                                                                                                  ; decode_dla                        ; work         ;
+;                   |decode_61a:rden_decode_a|                                                                                            ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_61a:rden_decode_a                                                                                                                                                                                            ; decode_61a                        ; work         ;
+;                   |decode_61a:rden_decode_b|                                                                                            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_61a:rden_decode_b                                                                                                                                                                                            ; decode_61a                        ; work         ;
+;                   |decode_dla:decode4|                                                                                                  ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_dla:decode4                                                                                                                                                                                                  ; decode_dla                        ; work         ;
+;                   |decode_dla:decode5|                                                                                                  ; 11 (11)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_dla:decode5                                                                                                                                                                                                  ; decode_dla                        ; work         ;
 ;                   |mux_tfb:mux6|                                                                                                        ; 24 (24)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|mux_tfb:mux6                                                                                                                                                                                                        ; mux_tfb                           ; work         ;
 ;                |sld_mod_ram_rom:mgl_prim2|                                                                                              ; 69 (55)             ; 44 (36)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2                                                                                                                                                                                                                       ; sld_mod_ram_rom                   ; work         ;
 ;                   |sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|                                                               ; 14 (14)             ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr                                                                                                                                                                 ; sld_rom_sr                        ; work         ;
@@ -329,8 +331,8 @@ https://fpgasoftware.intel.com/eula.
 ;          |altsyncram:altsyncram_component|                                                                                              ; 109 (0)             ; 47 (0)                    ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                ; altsyncram                        ; work         ;
 ;             |altsyncram_den1:auto_generated|                                                                                            ; 109 (0)             ; 47 (0)                    ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated                                                                                                                                                                                                                                                 ; altsyncram_den1                   ; work         ;
 ;                |altsyncram_lre2:altsyncram1|                                                                                            ; 40 (0)              ; 3 (3)                     ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1                                                                                                                                                                                                                     ; altsyncram_lre2                   ; work         ;
-;                   |decode_61a:rden_decode_b|                                                                                            ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_61a:rden_decode_b                                                                                                                                                                                            ; decode_61a                        ; work         ;
-;                   |decode_dla:decode5|                                                                                                  ; 13 (13)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_dla:decode5                                                                                                                                                                                                  ; decode_dla                        ; work         ;
+;                   |decode_61a:rden_decode_b|                                                                                            ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_61a:rden_decode_b                                                                                                                                                                                            ; decode_61a                        ; work         ;
+;                   |decode_dla:decode5|                                                                                                  ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_dla:decode5                                                                                                                                                                                                  ; decode_dla                        ; work         ;
 ;                   |mux_tfb:mux6|                                                                                                        ; 24 (24)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|mux_tfb:mux6                                                                                                                                                                                                        ; mux_tfb                           ; work         ;
 ;                |sld_mod_ram_rom:mgl_prim2|                                                                                              ; 69 (55)             ; 44 (36)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2                                                                                                                                                                                                                       ; sld_mod_ram_rom                   ; work         ;
 ;                   |sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|                                                               ; 14 (14)             ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr                                                                                                                                                                 ; sld_rom_sr                        ; work         ;
@@ -338,8 +340,8 @@ https://fpgasoftware.intel.com/eula.
 ;          |altsyncram:altsyncram_component|                                                                                              ; 109 (0)             ; 47 (0)                    ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                ; altsyncram                        ; work         ;
 ;             |altsyncram_den1:auto_generated|                                                                                            ; 109 (0)             ; 47 (0)                    ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated                                                                                                                                                                                                                                                 ; altsyncram_den1                   ; work         ;
 ;                |altsyncram_lre2:altsyncram1|                                                                                            ; 40 (0)              ; 3 (3)                     ; 524288            ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1                                                                                                                                                                                                                     ; altsyncram_lre2                   ; work         ;
-;                   |decode_61a:rden_decode_b|                                                                                            ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_61a:rden_decode_b                                                                                                                                                                                            ; decode_61a                        ; work         ;
-;                   |decode_dla:decode5|                                                                                                  ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_dla:decode5                                                                                                                                                                                                  ; decode_dla                        ; work         ;
+;                   |decode_61a:rden_decode_b|                                                                                            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_61a:rden_decode_b                                                                                                                                                                                            ; decode_61a                        ; work         ;
+;                   |decode_dla:decode5|                                                                                                  ; 11 (11)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|decode_dla:decode5                                                                                                                                                                                                  ; decode_dla                        ; work         ;
 ;                   |mux_tfb:mux6|                                                                                                        ; 24 (24)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|mux_tfb:mux6                                                                                                                                                                                                        ; mux_tfb                           ; work         ;
 ;                |sld_mod_ram_rom:mgl_prim2|                                                                                              ; 69 (55)             ; 44 (36)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2                                                                                                                                                                                                                       ; sld_mod_ram_rom                   ; work         ;
 ;                   |sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|                                                               ; 14 (14)             ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr                                                                                                                                                                 ; sld_rom_sr                        ; work         ;
@@ -352,13 +354,13 @@ https://fpgasoftware.intel.com/eula.
 ;                   |mux_tfb:mux6|                                                                                                        ; 24 (24)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|mux_tfb:mux6                                                                                                                                                                                                        ; mux_tfb                           ; work         ;
 ;                |sld_mod_ram_rom:mgl_prim2|                                                                                              ; 69 (55)             ; 44 (36)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2                                                                                                                                                                                                                       ; sld_mod_ram_rom                   ; work         ;
 ;                   |sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|                                                               ; 14 (14)             ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr                                                                                                                                                                 ; sld_rom_sr                        ; work         ;
-;    |Extend:ext|                                                                                                                         ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Extend:ext                                                                                                                                                                                                                                                                                                                                 ; Extend                            ; work         ;
+;    |Extend:ext|                                                                                                                         ; 17 (17)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Extend:ext                                                                                                                                                                                                                                                                                                                                 ; Extend                            ; work         ;
 ;    |FF32:ff0|                                                                                                                           ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff0                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
-;    |FF32:ff1|                                                                                                                           ; 0 (0)               ; 94 (94)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff1                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
-;    |FF32:ff2|                                                                                                                           ; 0 (0)               ; 182 (182)                 ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff2                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
-;    |FF32:ff3|                                                                                                                           ; 0 (0)               ; 103 (103)                 ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff3                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
-;    |FF32:ff4|                                                                                                                           ; 0 (0)               ; 102 (102)                 ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff4                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
-;    |ForwardingUnit:fdu|                                                                                                                 ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|ForwardingUnit:fdu                                                                                                                                                                                                                                                                                                                         ; ForwardingUnit                    ; work         ;
+;    |FF32:ff1|                                                                                                                           ; 0 (0)               ; 95 (95)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff1                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
+;    |FF32:ff2|                                                                                                                           ; 1 (1)               ; 181 (181)                 ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff2                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
+;    |FF32:ff3|                                                                                                                           ; 0 (0)               ; 72 (72)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff3                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
+;    |FF32:ff4|                                                                                                                           ; 0 (0)               ; 104 (104)                 ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|FF32:ff4                                                                                                                                                                                                                                                                                                                                   ; FF32                              ; work         ;
+;    |ForwardingUnit:fdu|                                                                                                                 ; 14 (14)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|ForwardingUnit:fdu                                                                                                                                                                                                                                                                                                                         ; ForwardingUnit                    ; work         ;
 ;    |HazardUnit:HU|                                                                                                                      ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|HazardUnit:HU                                                                                                                                                                                                                                                                                                                              ; HazardUnit                        ; work         ;
 ;    |InstructionMemory:IM|                                                                                                               ; 0 (0)               ; 0 (0)                     ; 32768             ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|InstructionMemory:IM                                                                                                                                                                                                                                                                                                                       ; InstructionMemory                 ; work         ;
 ;       |INST:INST_inst0|                                                                                                                 ; 0 (0)               ; 0 (0)                     ; 8192              ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|InstructionMemory:IM|INST:INST_inst0                                                                                                                                                                                                                                                                                                       ; INST                              ; work         ;
@@ -373,14 +375,16 @@ https://fpgasoftware.intel.com/eula.
 ;       |INST:INST_inst3|                                                                                                                 ; 0 (0)               ; 0 (0)                     ; 8192              ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|InstructionMemory:IM|INST:INST_inst3                                                                                                                                                                                                                                                                                                       ; INST                              ; work         ;
 ;          |altsyncram:altsyncram_component|                                                                                              ; 0 (0)               ; 0 (0)                     ; 8192              ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|InstructionMemory:IM|INST:INST_inst3|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                       ; altsyncram                        ; work         ;
 ;             |altsyncram_cpe1:auto_generated|                                                                                            ; 0 (0)               ; 0 (0)                     ; 8192              ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|InstructionMemory:IM|INST:INST_inst3|altsyncram:altsyncram_component|altsyncram_cpe1:auto_generated                                                                                                                                                                                                                                        ; altsyncram_cpe1                   ; work         ;
-;    |Mux2by1:ins|                                                                                                                        ; 29 (29)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:ins                                                                                                                                                                                                                                                                                                                                ; Mux2by1                           ; work         ;
-;    |Mux2by1:pcmux|                                                                                                                      ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:pcmux                                                                                                                                                                                                                                                                                                                              ; Mux2by1                           ; work         ;
-;    |Mux2by1:srcbmux|                                                                                                                    ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:srcbmux                                                                                                                                                                                                                                                                                                                            ; Mux2by1                           ; work         ;
+;    |Mux2by1:ins1|                                                                                                                       ; 50 (50)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:ins1                                                                                                                                                                                                                                                                                                                               ; Mux2by1                           ; work         ;
+;    |Mux2by1:pcmux|                                                                                                                      ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:pcmux                                                                                                                                                                                                                                                                                                                              ; Mux2by1                           ; work         ;
+;    |Mux2by1:srcbmux|                                                                                                                    ; 22 (22)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:srcbmux                                                                                                                                                                                                                                                                                                                            ; Mux2by1                           ; work         ;
+;    |Mux2by1:st2|                                                                                                                        ; 22 (22)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:st2                                                                                                                                                                                                                                                                                                                                ; Mux2by1                           ; work         ;
 ;    |Mux2by1:stall1|                                                                                                                     ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:stall1                                                                                                                                                                                                                                                                                                                             ; Mux2by1                           ; work         ;
-;    |Mux3by1:muxA|                                                                                                                       ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux3by1:muxA                                                                                                                                                                                                                                                                                                                               ; Mux3by1                           ; work         ;
-;    |Mux3by1:muxB|                                                                                                                       ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux3by1:muxB                                                                                                                                                                                                                                                                                                                               ; Mux3by1                           ; work         ;
-;    |Mux3by1:resultmux|                                                                                                                  ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux3by1:resultmux                                                                                                                                                                                                                                                                                                                          ; Mux3by1                           ; work         ;
-;    |Register1:rff|                                                                                                                      ; 615 (615)           ; 992 (992)                 ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Register1:rff                                                                                                                                                                                                                                                                                                                              ; Register1                         ; work         ;
+;    |Mux2by1:stall2|                                                                                                                     ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux2by1:stall2                                                                                                                                                                                                                                                                                                                             ; Mux2by1                           ; work         ;
+;    |Mux3by1:muxA|                                                                                                                       ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux3by1:muxA                                                                                                                                                                                                                                                                                                                               ; Mux3by1                           ; work         ;
+;    |Mux3by1:muxB|                                                                                                                       ; 38 (38)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux3by1:muxB                                                                                                                                                                                                                                                                                                                               ; Mux3by1                           ; work         ;
+;    |Mux3by1:resultmux|                                                                                                                  ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Mux3by1:resultmux                                                                                                                                                                                                                                                                                                                          ; Mux3by1                           ; work         ;
+;    |Register1:rff|                                                                                                                      ; 624 (624)           ; 992 (992)                 ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|Register1:rff                                                                                                                                                                                                                                                                                                                              ; Register1                         ; work         ;
 ;    |sld_hub:auto_hub|                                                                                                                   ; 129 (1)             ; 148 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                           ; sld_hub                           ; altera_sld   ;
 ;       |alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric| ; 128 (0)             ; 148 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric                                                                                                                                                                                           ; alt_sld_fab_with_jtag_input       ; altera_sld   ;
 ;          |alt_sld_fab:instrumentation_fabric|                                                                                           ; 128 (0)             ; 148 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |PipelinedProcessorwithoutHazard|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                                                                                        ; alt_sld_fab                       ; alt_sld_fab  ;
@@ -422,17 +426,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
 
 
-+------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops               ;
-+--------------------------------------------------------+---+
-; Logic Cell Name                                        ;   ;
-+--------------------------------------------------------+---+
-; PCSrc~0                                                ;   ;
-; Number of logic cells representing combinational loops ; 1 ;
-+--------------------------------------------------------+---+
-Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
-
-
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Registers Removed During Synthesis                                                                                                                                                                                                                                                                        ;
 +-----------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -447,13 +440,46 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 ; DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|address_reg_a[0]             ; Merged with DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|address_reg_a[0] ;
 ; DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|address_reg_a[0]             ; Merged with DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|address_reg_a[0] ;
 ; DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|address_reg_a[0]             ; Merged with DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|altsyncram_lre2:altsyncram1|address_reg_a[0] ;
-; FF32:ff1|q[1]                                                                                                                                       ; Merged with FF32:ff1|q[33]                                                                                                                          ;
-; FF32:ff1|q[0]                                                                                                                                       ; Merged with FF32:ff1|q[32]                                                                                                                          ;
-; FF32:ff2|q[11]                                                                                                                                      ; Merged with FF32:ff2|q[80]                                                                                                                          ;
-; FF32:ff2|q[10]                                                                                                                                      ; Merged with FF32:ff2|q[79]                                                                                                                          ;
+; FF32:ff2|q[11]                                                                                                                                      ; Merged with FF32:ff2|q[110]                                                                                                                         ;
+; FF32:ff2|q[10]                                                                                                                                      ; Merged with FF32:ff2|q[109]                                                                                                                         ;
+; FF32:ff2|q[9]                                                                                                                                       ; Merged with FF32:ff2|q[108]                                                                                                                         ;
+; FF32:ff2|q[8]                                                                                                                                       ; Merged with FF32:ff2|q[107]                                                                                                                         ;
+; FF32:ff2|q[7]                                                                                                                                       ; Merged with FF32:ff2|q[106]                                                                                                                         ;
+; FF32:ff2|q[31,94..104]                                                                                                                              ; Merged with FF32:ff2|q[105]                                                                                                                         ;
+; FF32:ff2|q[30]                                                                                                                                      ; Merged with FF32:ff2|q[84]                                                                                                                          ;
+; FF32:ff2|q[29]                                                                                                                                      ; Merged with FF32:ff2|q[83]                                                                                                                          ;
+; FF32:ff2|q[28]                                                                                                                                      ; Merged with FF32:ff2|q[82]                                                                                                                          ;
+; FF32:ff2|q[27]                                                                                                                                      ; Merged with FF32:ff2|q[81]                                                                                                                          ;
+; FF32:ff2|q[26]                                                                                                                                      ; Merged with FF32:ff2|q[80]                                                                                                                          ;
+; FF32:ff2|q[25]                                                                                                                                      ; Merged with FF32:ff2|q[79]                                                                                                                          ;
+; FF32:ff2|q[19]                                                                                                                                      ; Merged with FF32:ff2|q[41]                                                                                                                          ;
+; FF32:ff2|q[18]                                                                                                                                      ; Merged with FF32:ff2|q[40]                                                                                                                          ;
+; FF32:ff2|q[17]                                                                                                                                      ; Merged with FF32:ff2|q[39]                                                                                                                          ;
+; FF32:ff2|q[16]                                                                                                                                      ; Merged with FF32:ff2|q[38]                                                                                                                          ;
+; FF32:ff2|q[15]                                                                                                                                      ; Merged with FF32:ff2|q[37]                                                                                                                          ;
+; FF32:ff2|q[24]                                                                                                                                      ; Merged with FF32:ff2|q[36]                                                                                                                          ;
+; FF32:ff2|q[23]                                                                                                                                      ; Merged with FF32:ff2|q[35]                                                                                                                          ;
+; FF32:ff2|q[22]                                                                                                                                      ; Merged with FF32:ff2|q[34]                                                                                                                          ;
+; FF32:ff2|q[21]                                                                                                                                      ; Merged with FF32:ff2|q[33]                                                                                                                          ;
+; FF32:ff2|q[20]                                                                                                                                      ; Merged with FF32:ff2|q[32]                                                                                                                          ;
+; FF32:ff1|q[5]                                                                                                                                       ; Merged with FF32:ff1|q[99]                                                                                                                          ;
+; FF32:ff1|q[4]                                                                                                                                       ; Merged with FF32:ff1|q[98]                                                                                                                          ;
+; FF32:ff1|q[3]                                                                                                                                       ; Merged with FF32:ff1|q[97]                                                                                                                          ;
+; FF32:ff1|q[2]                                                                                                                                       ; Merged with FF32:ff1|q[96]                                                                                                                          ;
+; FF32:ff1|q[1]                                                                                                                                       ; Merged with FF32:ff1|q[95]                                                                                                                          ;
+; FF32:ff1|q[10]                                                                                                                                      ; Merged with FF32:ff1|q[94]                                                                                                                          ;
+; FF32:ff1|q[9]                                                                                                                                       ; Merged with FF32:ff1|q[93]                                                                                                                          ;
+; FF32:ff1|q[8]                                                                                                                                       ; Merged with FF32:ff1|q[92]                                                                                                                          ;
+; FF32:ff1|q[7]                                                                                                                                       ; Merged with FF32:ff1|q[91]                                                                                                                          ;
+; FF32:ff1|q[6]                                                                                                                                       ; Merged with FF32:ff1|q[90]                                                                                                                          ;
+; FF32:ff1|q[12]                                                                                                                                      ; Merged with FF32:ff1|q[44]                                                                                                                          ;
+; FF32:ff1|q[11]                                                                                                                                      ; Merged with FF32:ff1|q[43]                                                                                                                          ;
+; FF32:ff2|q[43]                                                                                                                                      ; Merged with FF32:ff2|q[112]                                                                                                                         ;
+; FF32:ff2|q[42]                                                                                                                                      ; Merged with FF32:ff2|q[111]                                                                                                                         ;
+; FF32:ff2|q[215]                                                                                                                                     ; Merged with FF32:ff2|q[212]                                                                                                                         ;
+; Register1:rff|register~13                                                                                                                           ; Stuck at GND due to stuck port clock_enable                                                                                                         ;
 ; Register1:rff|register~15                                                                                                                           ; Stuck at GND due to stuck port clock_enable                                                                                                         ;
 ; Register1:rff|register~14                                                                                                                           ; Stuck at GND due to stuck port clock_enable                                                                                                         ;
-; Register1:rff|register~13                                                                                                                           ; Stuck at GND due to stuck port clock_enable                                                                                                         ;
 ; Register1:rff|register~0                                                                                                                            ; Stuck at GND due to stuck port clock_enable                                                                                                         ;
 ; Register1:rff|register~2                                                                                                                            ; Stuck at GND due to stuck port clock_enable                                                                                                         ;
 ; Register1:rff|register~3                                                                                                                            ; Stuck at GND due to stuck port clock_enable                                                                                                         ;
@@ -487,7 +513,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 ; DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3] ; Stuck at GND due to stuck port data_in                                                                                                              ;
 ; DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3] ; Stuck at GND due to stuck port data_in                                                                                                              ;
 ; DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3] ; Stuck at GND due to stuck port data_in                                                                                                              ;
-; Total Number of Removed Registers = 49                                                                                                              ;                                                                                                                                                     ;
+; Total Number of Removed Registers = 93                                                                                                              ;                                                                                                                                                     ;
 +-----------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -496,12 +522,12 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1844  ;
+; Total registers                              ; 1815  ;
 ; Number of registers using Synchronous Clear  ; 76    ;
-; Number of registers using Synchronous Load   ; 234   ;
-; Number of registers using Asynchronous Clear ; 719   ;
+; Number of registers using Synchronous Load   ; 264   ;
+; Number of registers using Asynchronous Clear ; 690   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1268  ;
+; Number of registers using Clock Enable       ; 1273  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -522,29 +548,36 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                                                                                  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3]                                        ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[0]                                        ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[1]                                        ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[2]                                        ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[1]                                        ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[2]                                        ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[0]                                        ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[1]                                        ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[0]                                                   ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[0]                                                   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[15]                                                  ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[3]                                                   ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[12]                                                  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 0 LEs                ; 64 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|FF32:ff2|q[145]                                                                                                                                                                            ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 0 LEs                ; 64 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|FF32:ff2|q[141]                                                                                                                                                                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[15]                                                  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 0 LEs                ; 64 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|FF32:ff2|q[191]                                                                                                                                                                            ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 0 LEs                ; 64 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|FF32:ff2|q[143]                                                                                                                                                                            ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|FF32:ff2|q[81]                                                                                                                                                                             ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[1] ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[3] ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[3] ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[3] ;
-; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|FF32:ff4|q[43]                                                                                                                                                                             ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[2] ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[0] ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[1] ;
+; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|FF32:ff4|q[68]                                                                                                                                                                             ;
 ; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[0]                                                   ;
-; 18:1               ; 3 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[0]      ;
-; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[7]                                                   ;
+; 18:1               ; 3 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[3]      ;
+; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[3]                                                   ;
 ; 18:1               ; 3 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst1|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[3]      ;
-; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[0]                                                   ;
-; 18:1               ; 3 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[0]      ;
-; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[4]                                                   ;
-; 18:1               ; 3 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[0]      ;
+; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[2]                                                   ;
+; 18:1               ; 3 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst2|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[3]      ;
+; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[3]                                                   ;
+; 18:1               ; 3 bits    ; 36 LEs        ; 24 LEs               ; 12 LEs                 ; Yes        ; |PipelinedProcessorwithoutHazard|DataMemory:DM|RAM:RAM_inst3|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[3]      ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |PipelinedProcessorwithoutHazard|Mux3by1:muxA|y[6]                                                                                                                                                                          ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |PipelinedProcessorwithoutHazard|Mux3by1:resultmux|y[27]                                                                                                                                                                    ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |PipelinedProcessorwithoutHazard|Mux3by1:muxB|y[10]                                                                                                                                                                         ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |PipelinedProcessorwithoutHazard|Mux2by1:ins1|y[0]                                                                                                                                                                          ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |PipelinedProcessorwithoutHazard|Mux2by1:ins1|y[8]                                                                                                                                                                          ;
+; 8:1                ; 31 bits   ; 155 LEs       ; 62 LEs               ; 93 LEs                 ; No         ; |PipelinedProcessorwithoutHazard|ALU:alu|Mux24                                                                                                                                                                              ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -637,6 +670,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------+
 ; WIDTH          ; 32    ; Signed Integer               ;
 +----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Mux2by1:stall2 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                     ;
++----------------+-------+------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -894,12 +937,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Mux2by1:st2 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; WIDTH          ; 32    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: FF32:ff1 ;
 +----------------+-------+------------------------------+
 ; Parameter Name ; Value ; Type                         ;
 +----------------+-------+------------------------------+
-; WIDTH          ; 96    ; Signed Integer               ;
+; WIDTH          ; 107   ; Signed Integer               ;
 +----------------+-------+------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -911,6 +964,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; WIDTH          ; 32    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Mux2by1:ins1 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; WIDTH          ; 32    ; Signed Integer                   ;
++----------------+-------+----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -929,7 +992,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------+
 ; Parameter Name ; Value ; Type                         ;
 +----------------+-------+------------------------------+
-; WIDTH          ; 185   ; Signed Integer               ;
+; WIDTH          ; 217   ; Signed Integer               ;
 +----------------+-------+------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1335,15 +1398,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+----------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "FF32:ff4"                                                                                  ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port        ; Type   ; Severity ; Details                                                                             ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
-; q[102..101] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +---------------------------------------------------------+
 ; Port Connectivity Checks: "DataMemory:DM|RAM:RAM_inst3" ;
 +---------------+-------+----------+----------------------+
@@ -1382,6 +1436,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------+-------+----------+----------------------+
 
 
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "FF32:ff3"                                                                                ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; q[68..37] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; q[101]    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------------+
 ; Port Connectivity Checks: "Controller2:c|Mux2by1:srcbmux" ;
 +------+-------+----------+---------------------------------+
@@ -1392,7 +1456,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------+
-; Port Connectivity Checks: "Mux2by1:ins"     ;
+; Port Connectivity Checks: "Mux2by1:ins1"    ;
 +-----------+-------+----------+--------------+
 ; Port      ; Type  ; Severity ; Details      ;
 +-----------+-------+----------+--------------+
@@ -1481,36 +1545,34 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 1696                        ;
-;     CLR               ; 428                         ;
+; arriav_ff             ; 1667                        ;
+;     CLR               ; 364                         ;
 ;     CLR SCLR          ; 5                           ;
 ;     CLR SCLR SLD      ; 64                          ;
-;     CLR SLD           ; 34                          ;
+;     CLR SLD           ; 64                          ;
 ;     ENA               ; 1052                        ;
-;     ENA CLR           ; 30                          ;
+;     ENA CLR           ; 35                          ;
 ;     ENA CLR SLD       ; 64                          ;
 ;     plain             ; 19                          ;
-; arriav_lcell_comb     ; 1788                        ;
-;     arith             ; 158                         ;
-;         1 data inputs ; 94                          ;
-;         2 data inputs ; 48                          ;
-;         5 data inputs ; 16                          ;
-;     extend            ; 460                         ;
-;         7 data inputs ; 460                         ;
-;     normal            ; 1138                        ;
-;         0 data inputs ; 1                           ;
-;         2 data inputs ; 189                         ;
-;         3 data inputs ; 425                         ;
-;         4 data inputs ; 98                          ;
-;         5 data inputs ; 72                          ;
-;         6 data inputs ; 353                         ;
-;     shared            ; 32                          ;
+; arriav_lcell_comb     ; 1635                        ;
+;     arith             ; 159                         ;
+;         1 data inputs ; 95                          ;
 ;         2 data inputs ; 32                          ;
+;         5 data inputs ; 32                          ;
+;     extend            ; 465                         ;
+;         7 data inputs ; 465                         ;
+;     normal            ; 1011                        ;
+;         0 data inputs ; 1                           ;
+;         2 data inputs ; 25                          ;
+;         3 data inputs ; 185                         ;
+;         4 data inputs ; 199                         ;
+;         5 data inputs ; 171                         ;
+;         6 data inputs ; 430                         ;
 ; boundary_port         ; 110                         ;
 ; stratixv_ram_block    ; 288                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 16.10                       ;
-; Average LUT depth     ; 4.69                        ;
+; Max LUT depth         ; 12.70                       ;
+; Average LUT depth     ; 5.25                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1519,7 +1581,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:06     ;
 +----------------+--------------+
 
 
@@ -1529,7 +1591,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Mon Oct 21 22:27:23 2024
+    Info: Processing started: Mon Oct 28 15:40:14 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off PipelinedProcessorwithoutHazard -c PipelinedProcessorwithoutHazard
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -1600,20 +1662,20 @@ Info (12128): Elaborating entity "altsyncram_cpe1" for hierarchy "InstructionMem
 Warning (113028): 940 out of 1024 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 1 warnings found, and 1 warnings are reported. File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/Riscvt.mif Line: 1
     Warning (113027): Addresses ranging from 84 to 1023 are not initialized File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Instruction Memory/Riscvt.mif Line: 1
 Info (12128): Elaborating entity "Adder" for hierarchy "Adder:a0" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 34
-Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff1" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 37
-Info (12128): Elaborating entity "Controller2" for hierarchy "Controller2:c" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 42
+Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff1" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 38
+Info (12128): Elaborating entity "Controller2" for hierarchy "Controller2:c" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 44
 Info (12128): Elaborating entity "MainDecoder" for hierarchy "Controller2:c|MainDecoder:md" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/controller2.v Line: 16
 Info (12128): Elaborating entity "AluDecoder" for hierarchy "Controller2:c|AluDecoder:ad" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/controller2.v Line: 17
 Info (12128): Elaborating entity "Mux2by1" for hierarchy "Controller2:c|Mux2by1:srcbmux" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/controller2.v Line: 20
-Info (12128): Elaborating entity "Register1" for hierarchy "Register1:rff" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 43
-Info (12128): Elaborating entity "Extend" for hierarchy "Extend:ext" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 44
-Info (12128): Elaborating entity "HazardUnit" for hierarchy "HazardUnit:HU" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 45
-Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff2" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 51
-Info (12128): Elaborating entity "Mux3by1" for hierarchy "Mux3by1:muxA" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 54
-Info (12128): Elaborating entity "ALU" for hierarchy "ALU:alu" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 57
-Info (12128): Elaborating entity "ForwardingUnit" for hierarchy "ForwardingUnit:fdu" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 59
-Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff3" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 69
-Info (12128): Elaborating entity "DataMemory" for hierarchy "DataMemory:DM" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 72
+Info (12128): Elaborating entity "Register1" for hierarchy "Register1:rff" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 45
+Info (12128): Elaborating entity "Extend" for hierarchy "Extend:ext" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 46
+Info (12128): Elaborating entity "HazardUnit" for hierarchy "HazardUnit:HU" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 47
+Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff2" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 53
+Info (12128): Elaborating entity "Mux3by1" for hierarchy "Mux3by1:muxA" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 56
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:alu" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 59
+Info (12128): Elaborating entity "ForwardingUnit" for hierarchy "ForwardingUnit:fdu" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 61
+Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff3" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 71
+Info (12128): Elaborating entity "DataMemory" for hierarchy "DataMemory:DM" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 74
 Info (12128): Elaborating entity "RAM" for hierarchy "DataMemory:DM|RAM:RAM_inst0" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/DataMemory.v Line: 9
 Info (12128): Elaborating entity "altsyncram" for hierarchy "DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v Line: 86
 Info (12130): Elaborated megafunction instantiation "DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/DataMemory/RAM.v Line: 86
@@ -1661,9 +1723,9 @@ Info (12133): Instantiated megafunction "DataMemory:DM|RAM:RAM_inst0|altsyncram:
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter" for hierarchy "DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 302
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter_impl" for hierarchy "DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter|sld_jtag_endpoint_adapter_impl:sld_jtag_endpoint_adapter_impl_inst" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd Line: 232
 Info (12128): Elaborating entity "sld_rom_sr" for hierarchy "DataMemory:DM|RAM:RAM_inst0|altsyncram:altsyncram_component|altsyncram_den1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 799
-Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff4" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 76
+Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff4" File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/PipelinedProcessorwithoutHazard.v Line: 78
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2024.10.21.22:27:54 Progress: Loading sld1d62f352/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2024.10.28.15:40:33 Progress: Loading sld1d62f352/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -1686,281 +1748,22 @@ Info (12021): Found 2 design units, including 1 entities, in source file db/ip/s
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/db/ip/sld1d62f352/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld1d62f352/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/db/ip/sld1d62f352/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
-Warning (19016): Clock multiplexers are found and protected
-    Warning (19017): Found clock multiplexer ALU:alu|Mux31 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[0] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[0] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[0] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~1 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~0 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[0] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~1 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[1] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[1] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[1] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~2 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~1 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[2] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[2] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[2] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~2 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[3] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[3] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[3] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[4] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[4] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[4] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~5 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[5] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[5] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[5] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~6 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~5 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[6] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[6] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[6] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~7 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~6 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[7] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[7] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[7] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~8 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~7 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[8] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[8] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[8] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~9 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~8 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[9] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[9] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[9] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~10 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~9 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[10] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[10] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[10] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~11 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~10 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[11] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[11] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[11] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~12 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~11 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[12] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[12] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[12] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~13 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~12 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[13] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[13] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[13] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~14 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~13 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[14] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[14] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[14] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~15 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~14 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[15] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[15] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[15] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~16 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~15 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[16] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[16] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[16] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~17 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~16 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[17] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[17] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[17] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~18 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~17 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[18] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[18] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[18] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~19 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~18 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[19] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[19] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[19] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~20 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~19 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[20] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[20] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[20] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~21 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~20 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[21] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[21] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[21] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~22 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~21 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[22] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[22] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[22] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~23 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~22 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[23] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[23] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[23] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~24 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~23 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[24] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[24] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[24] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~25 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~24 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[25] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[25] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[25] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~26 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~25 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[26] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[26] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[26] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~27 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~26 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[27] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[27] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[27] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~28 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~27 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[28] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[28] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[28] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~29 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~28 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[29] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[29] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[29] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~30 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~29 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[30] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[30] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[30] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~31 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~30 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux2by1:srcbmux|y[31] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y[31] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y[31] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:resultmux|y~32 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxB|y~31 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[1] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~2 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[2] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[3] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[4] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~5 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[5] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~6 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[6] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~7 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[7] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~8 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[8] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~9 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[9] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~10 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[10] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~11 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[11] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~12 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[12] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~13 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[13] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~14 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[14] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~15 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[15] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~16 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[16] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~17 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[17] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~18 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[18] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~19 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[19] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~20 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[20] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~21 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[21] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~22 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[22] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~23 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[23] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~24 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[24] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~25 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[25] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~26 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[26] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~27 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[27] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~28 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[28] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~29 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[29] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~30 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[30] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~31 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y[31] File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer Mux3by1:muxA|y~32 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux3by1/Mux3by1.v Line: 4
-    Warning (19017): Found clock multiplexer ALU:alu|Mux30 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux29 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux28 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux27 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux26 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux25 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux24 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux23 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux22 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux21 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux20 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux19 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux18 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux17 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux16 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux15 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux14 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux13 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux12 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux11 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux10 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux9 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux8 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux7 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux6 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux5 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux2 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux1 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
-    Warning (19017): Found clock multiplexer ALU:alu|Mux0 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/ALU/ALU.v Line: 9
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Info (276014): Found 1 instances of uninferred RAM logic
     Info (276007): RAM logic "Register1:rff|register" is uninferred due to asynchronous read logic File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/Register1.v Line: 11
-Warning (19016): Clock multiplexers are found and protected
-    Warning (19017): Found clock multiplexer Controller2:c|MainDecoder:md|WideOr5~0 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MainDecoder/MainDecoder.v Line: 11
 Info (144001): Generated suppressed messages file C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/output_files/PipelinedProcessorwithoutHazard.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 9 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 3642 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 3459 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 3347 logic cells
+    Info (21061): Implemented 3164 logic cells
     Info (21064): Implemented 288 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 262 warnings
-    Info: Peak virtual memory: 4958 megabytes
-    Info: Processing ended: Mon Oct 21 22:28:14 2024
-    Info: Elapsed time: 00:00:51
-    Info: Total CPU time (on all processors): 00:01:32
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4940 megabytes
+    Info: Processing ended: Mon Oct 28 15:40:53 2024
+    Info: Elapsed time: 00:00:39
+    Info: Total CPU time (on all processors): 00:01:02
 
 
 +------------------------------------------+
