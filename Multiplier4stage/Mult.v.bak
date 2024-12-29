@@ -1,0 +1,14 @@
+module Mult(clk,reset,A,B,C,s);
+input clk,reset,s;
+input [31:0]A,B;
+output [31:0]C;
+
+wire [63:0]D[31:0];
+
+  for (genvar i = 0; i < 32; i++) begin
+      Mux2by1 #(64) pcmux(64'b0,{{{32{1'b0}},B} << i}, A[i], D[i]);
+  end
+  
+  
+  
+endmodule

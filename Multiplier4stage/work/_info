@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+vFF32
+Z0 !s110 1733339209
+!i10b 1
+!s100 NcGz3Fm?1YFd[2g5PcmbU2
+Iz:Qei_8cI?>CPRX_84`Bo0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/PC/Desktop/fyd/MultiplierA
+w1726952301
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1733339209.000000
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@f@f32
+vMult
+R0
+!i10b 1
+!s100 A=Z9iAZ;24f]TfgY^AS`@3
+ID`Z2JnD^Gg]`4<=6`emaO3
+R1
+R2
+w1733338424
+8C:\Users\PC\Desktop\fyd\MultiplierA\Mult.v
+FC:\Users\PC\Desktop\fyd\MultiplierA\Mult.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\PC\Desktop\fyd\MultiplierA\Mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\PC\Desktop\fyd\MultiplierA\Mult.v|
+!i113 1
+R5
+R6
+n@mult
+vMult2PAdd
+!s110 1733339125
+!i10b 1
+!s100 W4HAOI88gLKc`m:5oi00o0
+I0K@NDIGiW>;zP7_MF?=7Q1
+R1
+R2
+w1733339110
+8C:/Users/PC/Desktop/fyd/MultiplierA/Mult2PAdd.v
+FC:/Users/PC/Desktop/fyd/MultiplierA/Mult2PAdd.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1733339124.000000
+!s107 C:/Users/PC/Desktop/fyd/MultiplierA/Mult2PAdd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/MultiplierA/Mult2PAdd.v|
+!i113 1
+R5
+R6
+n@mult2@p@add
+vMux2by1
+R0
+!i10b 1
+!s100 7Gl;H0cC<ddW98LiaU[GQ2
+IQLHaHDa[b?iRYS2cn1fnn3
+R1
+R2
+w1726952988
+8C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v
+FC:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Mux2by1/Mux2by1.v|
+!i113 1
+R5
+R6
+n@mux2by1
+vPADD
+!s110 1733339067
+!i10b 1
+!s100 :]eaoSSSnHTn1f^lGGIi80
+I`PQji938UX747<K]:;4]E2
+R1
+R2
+w1733337601
+8C:/Users/PC/Desktop/fyd/MultiplierA/PADD.v
+FC:/Users/PC/Desktop/fyd/MultiplierA/PADD.v
+L0 40
+R3
+r1
+!s85 0
+31
+!s108 1733339067.000000
+!s107 C:/Users/PC/Desktop/fyd/MultiplierA/PADD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Desktop/fyd/MultiplierA/PADD.v|
+!i113 1
+R5
+R6
+n@p@a@d@d

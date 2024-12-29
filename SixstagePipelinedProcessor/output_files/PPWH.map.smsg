@@ -1,0 +1,15 @@
+Info (10281): Verilog HDL Declaration information at MWCS.v(7): object "C0" differs only in case from object "c0" in the same scope File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 7
+Info (10281): Verilog HDL Declaration information at MWCS.v(11): object "C1" differs only in case from object "c1" in the same scope File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 11
+Info (10281): Verilog HDL Declaration information at MWCS.v(18): object "C2" differs only in case from object "c2" in the same scope File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 18
+Info (10281): Verilog HDL Declaration information at MWCS.v(23): object "C3" differs only in case from object "c3" in the same scope File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 23
+Info (10281): Verilog HDL Declaration information at MWCS.v(31): object "C5" differs only in case from object "c5" in the same scope File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 31
+Info (10281): Verilog HDL Declaration information at MWCS.v(33): object "C6" differs only in case from object "c6" in the same scope File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 33
+Info (10281): Verilog HDL Declaration information at MWCS.v(15): object "C16" differs only in case from object "c16" in the same scope File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 15
+Info (10281): Verilog HDL Declaration information at MWCS.v(20): object "C24" differs only in case from object "c24" in the same scope File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 20
+Info (10281): Verilog HDL Declaration information at PP.v(4): object "C" differs only in case from object "c" in the same scope File: C:/Users/PC/Desktop/fyd/PP/PP.v Line: 4
+Info (10281): Verilog HDL Declaration information at Mult.v(8): object "D" differs only in case from object "d" in the same scope File: C:/Users/PC/Desktop/fyd/MultiplierA/Mult.v Line: 8
+Info (10281): Verilog HDL Declaration information at Mult.v(14): object "Z" differs only in case from object "z" in the same scope File: C:/Users/PC/Desktop/fyd/MultiplierA/Mult.v Line: 14
+Info (10281): Verilog HDL Declaration information at Mult.v(11): object "F" differs only in case from object "f" in the same scope File: C:/Users/PC/Desktop/fyd/MultiplierA/Mult.v Line: 11
+Warning (10268): Verilog HDL information at ALU2.v(10): always construct contains both blocking and non-blocking assignments File: C:/Users/PC/Desktop/fyd/PipelinedProcessorwithoutHazard/ALU2.v Line: 10
+Warning (10273): Verilog HDL warning at Extend.v(12): extended using "x" or "z" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/Extend/Extend.v Line: 12
+Info (10281): Verilog HDL Declaration information at PPWH.v(19): object "C" differs only in case from object "c" in the same scope File: C:/Users/PC/Desktop/fyd/PPWH/PPWH.v Line: 19

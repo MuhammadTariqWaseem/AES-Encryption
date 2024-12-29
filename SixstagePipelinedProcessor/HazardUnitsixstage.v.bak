@@ -1,0 +1,36 @@
+module HazardUnitsixstage (ResultSrcE,WriteAddE,rs1,rs2,FD,FE,ST,PCSrc);
+
+input ResultSrcE;
+input [4:0]WriteAddE,rs1,rs2;
+output reg FD,FE,ST;
+input PCSrc;
+
+always@(ResultSrcE or PCSrc) begin
+   if( ((WriteAddE == rs1) | (WriteAddE == rs2)) & ResultSrcE)
+	    FE = 1'b0;
+	else if (PCSrc)
+	    FE = 1'b0;
+	else 
+	    FE = 1'b1;
+end
+
+always@(PCSrc) begin
+   if(PCSrc)
+	    FD = 1'b1;
+	else 
+	    FD = 1'b0;
+end
+
+always@(PCSrc) begin
+   if(PCSrc)
+	    FX = 1'b0;
+	else 
+	    FX = 1'b1;
+end
+
+always@(ResultSrcE) begin 
+   if((((WriteAddE == rs1) | (WriteAddE == rs2)) & ResultSrcE))
+	    ST <= 1'b1;
+	else ST <= 1'b0;
+end
+endmodule

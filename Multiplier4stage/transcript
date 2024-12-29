@@ -1,0 +1,1405 @@
+# Compile of SCPF.v was successful.
+# Compile of ALU.v was successful.
+# Compile of AluDecoder_tb.v was successful.
+# Compile of AluDecoder.v was successful.
+# Compile of Controller_tb.v was successful.
+# Compile of Controller.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataPath_tb.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF32.v was successful.
+# Compile of IM_tb.v was successful.
+# Compile of INST.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of MainDecoder_tb.v was successful.
+# Compile of MainDecoder.v was successful.
+# Compile of Mux2by1.v was successful.
+# Compile of Mux3by1.v was successful.
+# Compile of Register.v failed with 1 errors.
+# Compile of SCPP_tb.v was successful.
+# Compile of SCP.v was successful.
+# Compile of SCP_tb.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of Controller1.v was successful.
+# Compile of PipelinedProcessor.v was successful.
+# Compile of Register1.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of PipelinedProcessorwithoutHazard.v was successful.
+# Compile of HazardUnit.v was successful.
+# Compile of controller2.v was successful.
+# Compile of ALU2.v was successful.
+# Compile of add_sub.v was successful.
+# Compile of ALUIP.v was successful.
+# Compile of 220model.v was successful.
+# Compile of PPWH.v was successful.
+# 36 compiles, 1 failed with 1 error.
+vsim -gui work.PipelinedProcessorwithoutHazard
+# vsim -gui work.PipelinedProcessorwithoutHazard 
+# Start time: 15:34:22 on Dec 08,2024
+# Loading work.PipelinedProcessorwithoutHazard
+# Loading work.Mux2by1
+# Loading work.FF32
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.add_sub
+# Loading work.lpm_add_sub
+# Loading work.Controller2
+# Loading work.MainDecoder
+# Loading work.AluDecoder
+# Loading work.Register1
+# Loading work.Extend
+# Loading work.HazardUnit
+# Loading work.Mux3by1
+# Loading work.ALU2
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.RAM
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/clk
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/reset
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/PC
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/InstrD
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/WriteDataW
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/ImmExt
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/ALUResultE
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/ALUResultM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: PC  Hostname: DESKTOP-TPS7T99  ProcessID: 5980
+#           Attempting to use alternate WLF file "./wlft1e86ka".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1e86ka
+force -freeze sim:/PipelinedProcessorwithoutHazard/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PipelinedProcessorwithoutHazard/reset 1 0
+run
+force -freeze sim:/PipelinedProcessorwithoutHazard/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/RD1
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/RD2
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of SCPF.v was successful.
+# Compile of ALU.v was successful.
+# Compile of AluDecoder_tb.v was successful.
+# Compile of AluDecoder.v was successful.
+# Compile of Controller_tb.v was successful.
+# Compile of Controller.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataPath_tb.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF32.v was successful.
+# Compile of IM_tb.v was successful.
+# Compile of INST.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of MainDecoder_tb.v was successful.
+# Compile of MainDecoder.v was successful.
+# Compile of Mux2by1.v was successful.
+# Compile of Mux3by1.v was successful.
+# Compile of Register.v failed with 1 errors.
+# Compile of SCPP_tb.v was successful.
+# Compile of SCP.v was successful.
+# Compile of SCP_tb.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of Controller1.v was successful.
+# Compile of PipelinedProcessor.v was successful.
+# Compile of Register1.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of PipelinedProcessorwithoutHazard.v was successful.
+# Compile of HazardUnit.v was successful.
+# Compile of controller2.v was successful.
+# Compile of ALU2.v was successful.
+# Compile of add_sub.v was successful.
+# Compile of ALUIP.v was successful.
+# Compile of 220model.v was successful.
+# Compile of PPWH.v was successful.
+# Compile of PP1.v failed with 1 errors.
+# Compile of FF321.v was successful.
+# Compile of PP.v was successful.
+# 39 compiles, 2 failed with 2 errors.
+# Error opening C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/(vlog-13069) C:/Users/PC/Desktop/fyd/PP/PP1.v
+# Path name 'C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/(vlog-13069) C:/Users/PC/Desktop/fyd/PP/PP1.v' doesn't exist.
+# Compile of PP1.v failed with 1 errors.
+# Error opening C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/(vlog-13069) C:/Users/PC/Desktop/fyd/PP/PP1.v
+# Path name 'C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/(vlog-13069) C:/Users/PC/Desktop/fyd/PP/PP1.v' doesn't exist.
+# Compile of PP1.v failed with 1 errors.
+# Compile of PP1.v was successful.
+vsim -gui PP
+# End time: 17:14:16 on Dec 08,2024, Elapsed time: 1:39:54
+# Errors: 2, Warnings: 2
+# vsim -gui PP 
+# Start time: 17:14:16 on Dec 08,2024
+# ** Error: (vsim-3170) Could not find 'PP'.
+#         Searched libraries:
+#             C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/work
+# Error loading design
+# End time: 17:14:18 on Dec 08,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0
+vsim -gui PP.v
+# vsim -gui PP.v 
+# Start time: 17:14:38 on Dec 08,2024
+# ** Error (suppressible): (vsim-19) Failed to access library 'PP' at "PP".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 17:14:39 on Dec 08,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Load canceled
+# Compile of PP.v was successful.
+# Compile of PP.v was successful.
+vsim -gui PP.v
+# vsim -gui PP.v 
+# Start time: 17:16:13 on Dec 08,2024
+# ** Error (suppressible): (vsim-19) Failed to access library 'PP' at "PP".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 17:16:14 on Dec 08,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim -gui work.PP
+# vsim -gui work.PP 
+# Start time: 17:16:39 on Dec 08,2024
+# Loading work.PP
+# Loading work.Mux2by1
+# ** Error: (vsim-3033) C:/Users/PC/Desktop/fyd/PP/PP.v(29): Instantiation of 'FF321' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /PP File: C:/Users/PC/Desktop/fyd/PP/PP.v
+#         Searched libraries:
+#             C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/work
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.add_sub
+# Loading work.lpm_add_sub
+# ** Error: (vsim-3033) C:/Users/PC/Desktop/fyd/PP/PP.v(38): Instantiation of 'FF321' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /PP File: C:/Users/PC/Desktop/fyd/PP/PP.v
+#         Searched libraries:
+#             C:/Users/PC/Desktop/fyd/SingleCycleProcessor/SCPF/work
+# Loading work.Controller2
+# Loading work.MainDecoder
+# Loading work.AluDecoder
+# Loading work.Register1
+# Loading work.Extend
+# Loading work.PP1
+# Loading work.FF32
+# Loading work.Mux3by1
+# Loading work.ALU2
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.RAM
+# Error loading design
+# End time: 17:16:39 on Dec 08,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# A time value could not be extracted from the current line
+# Compile of FF321.v was successful.
+vsim -gui PP
+# vsim -gui PP 
+# Start time: 17:17:33 on Dec 08,2024
+# Loading work.PP
+# Loading work.Mux2by1
+# Loading work.FF321
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.add_sub
+# Loading work.lpm_add_sub
+# Loading work.Controller2
+# Loading work.MainDecoder
+# Loading work.AluDecoder
+# Loading work.Register1
+# Loading work.Extend
+# Loading work.PP1
+# Loading work.FF32
+# Loading work.Mux3by1
+# Loading work.ALU2
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.RAM
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff2 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [PCDPC] - Port size (1) does not match connection size (220) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff2 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [TFMPC] - Missing connection for port 'q'.
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff3 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [PCDPC] - Port size (1) does not match connection size (105) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff3 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [TFMPC] - Missing connection for port 'q'.
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff4 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [PCDPC] - Port size (1) does not match connection size (104) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff4 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [TFMPC] - Missing connection for port 'q'.
+add wave -position end  sim:/PP/clk
+add wave -position end  sim:/PP/reset
+add wave -position end  sim:/PP/PC
+add wave -position end  sim:/PP/InstrD
+add wave -position end  sim:/PP/WriteDataW
+add wave -position end  sim:/PP/ImmExt
+add wave -position end  sim:/PP/ALUResultE
+add wave -position end  sim:/PP/ALUResultM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: PC  Hostname: DESKTOP-TPS7T99  ProcessID: 5980
+#           Attempting to use alternate WLF file "./wlftzqbixy".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzqbixy
+force -freeze sim:/PP/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PP/reset 1 0
+run
+force -freeze sim:/PP/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/PP/reset 1 0
+run
+run
+run
+run
+run
+run
+# Compile of FF321.v was successful.
+restart -f
+# Loading work.FF321
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff2 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [PCDPC] - Port size (1) does not match connection size (220) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff2 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [TFMPC] - Missing connection for port 'q'.
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff3 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [PCDPC] - Port size (1) does not match connection size (105) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff3 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [TFMPC] - Missing connection for port 'q'.
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff4 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [PCDPC] - Port size (1) does not match connection size (104) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PP/ff4 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [TFMPC] - Missing connection for port 'q'.
+force -freeze sim:/PP/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PP/reset 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Load canceled
+force -freeze sim:/PP/reset 0 0
+run
+run
+run
+run
+vsim -gui work.PipelinedProcessorwithoutHazard
+# End time: 17:29:55 on Dec 08,2024, Elapsed time: 0:12:22
+# Errors: 1, Warnings: 20
+# vsim -gui work.PipelinedProcessorwithoutHazard 
+# Start time: 17:29:55 on Dec 08,2024
+# Loading work.PipelinedProcessorwithoutHazard
+# Loading work.Mux2by1
+# Loading work.FF321
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.add_sub
+# Loading work.lpm_add_sub
+# Loading work.Controller2
+# Loading work.MainDecoder
+# Loading work.AluDecoder
+# Loading work.Register1
+# Loading work.Extend
+# Loading work.PP1
+# Loading work.FF32
+# Loading work.Mux3by1
+# Loading work.ALU2
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.RAM
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PipelinedProcessorwithoutHazard/ff2 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [PCDPC] - Port size (1) does not match connection size (220) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PipelinedProcessorwithoutHazard/ff2 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(51): [TFMPC] - Missing connection for port 'q'.
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PipelinedProcessorwithoutHazard/ff3 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [PCDPC] - Port size (1) does not match connection size (105) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PipelinedProcessorwithoutHazard/ff3 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(70): [TFMPC] - Missing connection for port 'q'.
+# ** Warning: (vsim-3017) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /PipelinedProcessorwithoutHazard/ff4 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [PCDPC] - Port size (1) does not match connection size (104) for port 'ST'. The port definition is at: C:/Users/PC/Desktop/fyd/PP/FF321.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /PipelinedProcessorwithoutHazard/ff4 File: C:/Users/PC/Desktop/fyd/PP/FF321.v
+# ** Warning: (vsim-3722) C:/Users/PC/Desktop/fyd/PP/PP.v(77): [TFMPC] - Missing connection for port 'q'.
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/clk
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/reset
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/InstrD
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/WriteDataW
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/ImmExt
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/ALUResultE
+add wave -position end  sim:/PipelinedProcessorwithoutHazard/ALUResultM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: PC  Hostname: DESKTOP-TPS7T99  ProcessID: 5980
+#           Attempting to use alternate WLF file "./wlftsie3k2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsie3k2
+force -freeze sim:/PipelinedProcessorwithoutHazard/reset 1 0
+force -freeze sim:/PipelinedProcessorwithoutHazard/clk 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/PipelinedProcessorwithoutHazard/reset 0 0
+run
+run
+run
+run
+run
+run
+# Compile of SCPF.v was successful.
+# Compile of ALU.v was successful.
+# Compile of AluDecoder_tb.v was successful.
+# Compile of AluDecoder.v was successful.
+# Compile of Controller_tb.v was successful.
+# Compile of Controller.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataPath_tb.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF32.v was successful.
+# Compile of IM_tb.v was successful.
+# Compile of INST.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of MainDecoder_tb.v was successful.
+# Compile of MainDecoder.v was successful.
+# Compile of Mux2by1.v was successful.
+# Compile of Mux3by1.v was successful.
+# Compile of Register.v failed with 1 errors.
+# Compile of SCPP_tb.v was successful.
+# Compile of SCP.v was successful.
+# Compile of SCP_tb.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of Controller1.v was successful.
+# Compile of PipelinedProcessor.v was successful.
+# Compile of Register1.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of PipelinedProcessorwithoutHazard.v was successful.
+# Compile of HazardUnit.v was successful.
+# Compile of controller2.v was successful.
+# Compile of ALU2.v was successful.
+# Compile of add_sub.v was successful.
+# Compile of ALUIP.v was successful.
+# Compile of 220model.v was successful.
+# Compile of PPWH.v was successful.
+# Compile of PP1.v was successful.
+# Compile of FF321.v was successful.
+# Compile of PP.v was successful.
+# 39 compiles, 1 failed with 1 error.
+restart -f
+# Loading work.PipelinedProcessorwithoutHazard
+# Loading work.Mux2by1
+# Loading work.FF32
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.add_sub
+# Loading work.lpm_add_sub
+# Loading work.Controller2
+# Loading work.MainDecoder
+# Loading work.AluDecoder
+# Loading work.Register1
+# Loading work.Extend
+# Loading work.HazardUnit
+# Loading work.Mux3by1
+# Loading work.ALU2
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.RAM
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+force -freeze sim:/PipelinedProcessorwithoutHazard/reset 1 0
+force -freeze sim:/PipelinedProcessorwithoutHazard/clk 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/PipelinedProcessorwithoutHazard/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 2  sim:/PipelinedProcessorwithoutHazard/PC
+restart -f
+force -freeze sim:/PipelinedProcessorwithoutHazard/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PipelinedProcessorwithoutHazard/reset 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/PipelinedProcessorwithoutHazard/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -gui work.PP
+# End time: 18:04:18 on Dec 08,2024, Elapsed time: 0:34:23
+# Errors: 0, Warnings: 11
+# vsim -gui work.PP 
+# Start time: 18:04:18 on Dec 08,2024
+# Loading work.PP
+# Loading work.Mux2by1
+# Loading work.FF321
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.add_sub
+# Loading work.lpm_add_sub
+# Loading work.Controller2
+# Loading work.MainDecoder
+# Loading work.AluDecoder
+# Loading work.Register1
+# Loading work.Extend
+# Loading work.PP1
+# Loading work.FF32
+# Loading work.Mux3by1
+# Loading work.ALU2
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.RAM
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/PP/clk
+add wave -position end  sim:/PP/reset
+add wave -position end  sim:/PP/InstrD
+add wave -position end  sim:/PP/WriteDataW
+add wave -position end  sim:/PP/ImmExt
+add wave -position end  sim:/PP/ALUResultE
+add wave -position end  sim:/PP/ALUResultM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: PC  Hostname: DESKTOP-TPS7T99  ProcessID: 5980
+#           Attempting to use alternate WLF file "./wlft035amg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft035amg
+force -freeze sim:/PP/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PP/reset 1 0
+run
+force -freeze sim:/PP/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 2  sim:/PP/PC
+force -freeze sim:/PP/reset 1 0
+run
+run
+run
+force -freeze sim:/PP/reset 0 0
+run
+run
+run
+run
+# Compile of PP.v was successful.
+restart -f
+# Loading work.PP
+force -freeze sim:/PP/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PP/reset 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+force -freeze sim:/PP/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of SCPF.v was successful.
+# Compile of ALU.v was successful.
+# Compile of AluDecoder_tb.v was successful.
+# Compile of AluDecoder.v was successful.
+# Compile of Controller_tb.v was successful.
+# Compile of Controller.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataPath_tb.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF32.v was successful.
+# Compile of IM_tb.v was successful.
+# Compile of INST.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of MainDecoder_tb.v was successful.
+# Compile of MainDecoder.v was successful.
+# Compile of Mux2by1.v was successful.
+# Compile of Mux3by1.v was successful.
+# Compile of Register.v failed with 1 errors.
+# Compile of SCPP_tb.v was successful.
+# Compile of SCP.v was successful.
+# Compile of SCP_tb.v was successful.
+# Compile of altera_mf.v was successful.
+# Compile of Controller1.v was successful.
+# Compile of PipelinedProcessor.v was successful.
+# Compile of Register1.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of PipelinedProcessorwithoutHazard.v was successful.
+# Compile of HazardUnit.v was successful.
+# Compile of controller2.v was successful.
+# Compile of ALU2.v was successful.
+# Compile of add_sub.v was successful.
+# Compile of ALUIP.v was successful.
+# Compile of 220model.v was successful.
+# Compile of PPWH.v was successful.
+# Compile of PP1.v was successful.
+# Compile of FF321.v was successful.
+# Compile of PP.v was successful.
+# Compile of AluDecoder1.v was successful.
+# Compile of Controller3.v was successful.
+# Compile of mux4by1.v was successful.
+# 42 compiles, 1 failed with 1 error.
+vsim -gui PPWH
+# End time: 20:28:14 on Dec 08,2024, Elapsed time: 2:23:56
+# Errors: 0, Warnings: 2
+# vsim -gui PPWH 
+# Start time: 20:28:14 on Dec 08,2024
+# Loading work.PPWH
+# Loading work.Mux2by1
+# Loading work.FF321
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.add_sub
+# Loading work.lpm_add_sub
+# Loading work.Controller3
+# Loading work.MainDecoder
+# Loading work.AluDecoder1
+# Loading work.Register
+# Loading work.Extend
+# Loading work.PP1
+# Loading work.Mux3by1
+# Loading work.ForwardingUnit
+# Loading work.FF32
+# Loading work.ALU2
+# Loading work.DataMemory
+# Loading work.RAM
+# Loading work.mux4by1
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(67): [PCDPC] - Port size (145) does not match connection size (144) for port 'q'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(79): [PCDPC] - Port size (106) does not match connection size (105) for port 'd'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+add wave -position end  sim:/PPWH/clk
+add wave -position end  sim:/PPWH/reset
+add wave -position end  sim:/PPWH/PC
+add wave -position end  sim:/PPWH/Instr
+add wave -position end  sim:/PPWH/WriteDataW
+add wave -position end  sim:/PPWH/ImmExt
+add wave -position end  sim:/PPWH/ALUResultX
+add wave -position end  sim:/PPWH/ALUResultM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: PC  Hostname: DESKTOP-TPS7T99  ProcessID: 5980
+#           Attempting to use alternate WLF file "./wlft757y8y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft757y8y
+add wave -position 5  sim:/PPWH/SrcX
+add wave -position 6  sim:/PPWH/A32X
+force -freeze sim:/PPWH/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PPWH/reset 1 0
+run
+force -freeze sim:/PPWH/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of PPWH.v was successful.
+restart -f
+# Loading work.PPWH
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(67): [PCDPC] - Port size (145) does not match connection size (144) for port 'q'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(79): [PCDPC] - Port size (106) does not match connection size (105) for port 'd'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+force -freeze sim:/PPWH/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PPWH/reset 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/PPWH/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+# Compile of PPWH.v was successful.
+restart -f
+# Loading work.PPWH
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(67): [PCDPC] - Port size (145) does not match connection size (144) for port 'q'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(79): [PCDPC] - Port size (106) does not match connection size (105) for port 'd'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+force -freeze sim:/PPWH/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PPWH/reset 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/PPWH/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/PPWH/SrcE
+add wave -position end  sim:/PPWH/A32
+add wave -position 5  sim:/PPWH/SrcE
+add wave -position 6  sim:/PPWH/A32
+force -freeze sim:/PPWH/reset 1 0
+run
+run
+force -freeze sim:/PPWH/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of PPWH.v was successful.
+restart -f
+# Loading work.PPWH
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(67): [PCDPC] - Port size (145) does not match connection size (144) for port 'q'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(79): [PCDPC] - Port size (106) does not match connection size (105) for port 'd'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+vsim -gui PPWH
+# End time: 20:50:14 on Dec 08,2024, Elapsed time: 0:22:00
+# Errors: 0, Warnings: 10
+# vsim -gui PPWH 
+# Start time: 20:50:14 on Dec 08,2024
+# Loading work.PPWH
+# Loading work.Mux2by1
+# Loading work.FF321
+# Loading work.InstructionMemory
+# Loading work.INST
+# Loading work.altsyncram
+# Loading work.add_sub
+# Loading work.lpm_add_sub
+# Loading work.Controller3
+# Loading work.MainDecoder
+# Loading work.AluDecoder1
+# Loading work.Register
+# Loading work.Extend
+# Loading work.PP1
+# Loading work.Mux3by1
+# Loading work.ForwardingUnit
+# Loading work.FF32
+# Loading work.ALU2
+# Loading work.DataMemory
+# Loading work.RAM
+# Loading work.mux4by1
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(67): [PCDPC] - Port size (145) does not match connection size (144) for port 'q'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff3 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+# ** Warning: (vsim-3015) C:/Users/PC/Desktop/fyd/PPWH/PPWH.v(79): [PCDPC] - Port size (106) does not match connection size (105) for port 'd'. The port definition is at: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /PPWH/ff4 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v
+add wave -position end  sim:/PPWH/clk
+add wave -position end  sim:/PPWH/reset
+add wave -position end  sim:/PPWH/PC
+add wave -position end  sim:/PPWH/Instr
+add wave -position end  sim:/PPWH/WriteDataW
+add wave -position end  sim:/PPWH/ImmExt
+add wave -position end  sim:/PPWH/SrcE
+add wave -position end  sim:/PPWH/ALUResultX
+add wave -position end  sim:/PPWH/A32
+add wave -position end  sim:/PPWH/ALUResultM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: PC  Hostname: DESKTOP-TPS7T99  ProcessID: 5980
+#           Attempting to use alternate WLF file "./wlft5xsrf6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5xsrf6
+force -freeze sim:/PPWH/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/PPWH/reset 1 0
+run
+run
+force -freeze sim:/PPWH/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
