@@ -1,0 +1,15 @@
+module MWCS(clk,reset,A,B,s,C);
+input clk,reset,s;
+input [31:0]A,B;
+output [31:0]C;
+
+wire [31:0]D[31:0];
+
+generate 
+	genvar j,k;
+	for(j=0; j<32; j=j+1) begin : AND_ROW
+		for(k=0; k<32; k=k+1) begin : AND_Col
+			and a0(D[j][k],A[j],B[k]);
+		end
+	end
+endgenerate 

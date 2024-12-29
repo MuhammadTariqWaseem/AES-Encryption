@@ -1,0 +1,1186 @@
+Analysis & Synthesis report for MWCS
+Mon Dec 16 23:05:04 2024
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Parameter Settings for User Entity Instance: CSA:c0
+ 11. Parameter Settings for User Entity Instance: CSA:c1
+ 12. Parameter Settings for User Entity Instance: CSA:c2
+ 13. Parameter Settings for User Entity Instance: CSA:c3
+ 14. Parameter Settings for User Entity Instance: CSA:c4
+ 15. Parameter Settings for User Entity Instance: CSA:c5
+ 16. Parameter Settings for User Entity Instance: CSA:c6
+ 17. Parameter Settings for User Entity Instance: CSA:c7
+ 18. Parameter Settings for User Entity Instance: CSA:c8
+ 19. Parameter Settings for User Entity Instance: CSA:c9
+ 20. Parameter Settings for User Entity Instance: CSA:c10
+ 21. Parameter Settings for User Entity Instance: CSA:c11
+ 22. Parameter Settings for User Entity Instance: CSA:c12
+ 23. Parameter Settings for User Entity Instance: CSA:c13
+ 24. Parameter Settings for User Entity Instance: CSA:c14
+ 25. Parameter Settings for User Entity Instance: CSA:c15
+ 26. Parameter Settings for User Entity Instance: CSA:c16
+ 27. Parameter Settings for User Entity Instance: FF32:ff1
+ 28. Parameter Settings for User Entity Instance: CSA:c17
+ 29. Parameter Settings for User Entity Instance: CSA:c18
+ 30. Parameter Settings for User Entity Instance: CSA:c19
+ 31. Parameter Settings for User Entity Instance: CSA:c20
+ 32. Parameter Settings for User Entity Instance: CSA:c21
+ 33. Parameter Settings for User Entity Instance: CSA:c22
+ 34. Parameter Settings for User Entity Instance: CSA:c23
+ 35. Parameter Settings for User Entity Instance: CSA:c24
+ 36. Parameter Settings for User Entity Instance: CSA:c25
+ 37. Parameter Settings for User Entity Instance: CSA:c26
+ 38. Parameter Settings for User Entity Instance: CSA:c27
+ 39. Parameter Settings for User Entity Instance: CSA:c28
+ 40. Parameter Settings for User Entity Instance: CSA:c29
+ 41. Parameter Settings for User Entity Instance: FF32:ff2
+ 42. Port Connectivity Checks: "FF32:ff2"
+ 43. Port Connectivity Checks: "CSA:c29"
+ 44. Port Connectivity Checks: "CSA:c28"
+ 45. Port Connectivity Checks: "CSA:c27"
+ 46. Port Connectivity Checks: "CSA:c26"
+ 47. Port Connectivity Checks: "CSA:c25"
+ 48. Port Connectivity Checks: "CSA:c24"
+ 49. Port Connectivity Checks: "CSA:c23"
+ 50. Port Connectivity Checks: "CSA:c22"
+ 51. Port Connectivity Checks: "CSA:c21"
+ 52. Port Connectivity Checks: "CSA:c20"
+ 53. Port Connectivity Checks: "CSA:c19"
+ 54. Port Connectivity Checks: "CSA:c18"
+ 55. Port Connectivity Checks: "CSA:c17"
+ 56. Port Connectivity Checks: "FF32:ff1"
+ 57. Port Connectivity Checks: "CSA:c16"
+ 58. Port Connectivity Checks: "CSA:c15"
+ 59. Port Connectivity Checks: "CSA:c14"
+ 60. Port Connectivity Checks: "CSA:c13"
+ 61. Port Connectivity Checks: "CSA:c12"
+ 62. Port Connectivity Checks: "CSA:c11"
+ 63. Port Connectivity Checks: "CSA:c10"
+ 64. Port Connectivity Checks: "CSA:c9"
+ 65. Port Connectivity Checks: "CSA:c8"
+ 66. Port Connectivity Checks: "CSA:c7"
+ 67. Port Connectivity Checks: "CSA:c6"
+ 68. Port Connectivity Checks: "CSA:c5"
+ 69. Port Connectivity Checks: "CSA:c4"
+ 70. Port Connectivity Checks: "CSA:c3"
+ 71. Port Connectivity Checks: "CSA:c2"
+ 72. Port Connectivity Checks: "CSA:c1"
+ 73. Port Connectivity Checks: "CSA:c0"
+ 74. Post-Synthesis Netlist Statistics for Top Partition
+ 75. Elapsed Time Per Partition
+ 76. Analysis & Synthesis Messages
+ 77. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon Dec 16 23:05:04 2024       ;
+; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Revision Name                   ; MWCS                                        ;
+; Top-level Entity Name           ; MWCS                                        ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 613                                         ;
+; Total pins                      ; 99                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; MWCS               ; MWCS               ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                        ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                          ; Library ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
+; ../FF32/FF32.v                   ; yes             ; User Verilog HDL File  ; C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v              ;         ;
+; CSA.v                            ; yes             ; User Verilog HDL File  ; C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/CSA.v  ;         ;
+; MWCS.v                           ; yes             ; User Verilog HDL File  ; C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v ;         ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 1326      ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 1862      ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 788       ;
+;     -- 5 input functions                    ; 283       ;
+;     -- 4 input functions                    ; 163       ;
+;     -- <=3 input functions                  ; 628       ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 613       ;
+;                                             ;           ;
+; I/O pins                                    ; 99        ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 613       ;
+; Total fan-out                               ; 9962      ;
+; Average fan-out                             ; 3.73      ;
++---------------------------------------------+-----------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |MWCS                      ; 1862 (90)           ; 613 (0)                   ; 0                 ; 0          ; 99   ; 0            ; |MWCS               ; MWCS        ; work         ;
+;    |CSA:c0|                ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c0        ; CSA         ; work         ;
+;    |CSA:c10|               ; 37 (37)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c10       ; CSA         ; work         ;
+;    |CSA:c11|               ; 68 (68)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c11       ; CSA         ; work         ;
+;    |CSA:c12|               ; 68 (68)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c12       ; CSA         ; work         ;
+;    |CSA:c13|               ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c13       ; CSA         ; work         ;
+;    |CSA:c14|               ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c14       ; CSA         ; work         ;
+;    |CSA:c15|               ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c15       ; CSA         ; work         ;
+;    |CSA:c16|               ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c16       ; CSA         ; work         ;
+;    |CSA:c17|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c17       ; CSA         ; work         ;
+;    |CSA:c18|               ; 20 (20)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c18       ; CSA         ; work         ;
+;    |CSA:c19|               ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c19       ; CSA         ; work         ;
+;    |CSA:c1|                ; 61 (61)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c1        ; CSA         ; work         ;
+;    |CSA:c20|               ; 36 (36)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c20       ; CSA         ; work         ;
+;    |CSA:c21|               ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c21       ; CSA         ; work         ;
+;    |CSA:c22|               ; 110 (110)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c22       ; CSA         ; work         ;
+;    |CSA:c23|               ; 76 (76)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c23       ; CSA         ; work         ;
+;    |CSA:c24|               ; 31 (31)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c24       ; CSA         ; work         ;
+;    |CSA:c25|               ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c25       ; CSA         ; work         ;
+;    |CSA:c26|               ; 73 (73)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c26       ; CSA         ; work         ;
+;    |CSA:c27|               ; 56 (56)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c27       ; CSA         ; work         ;
+;    |CSA:c28|               ; 77 (77)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c28       ; CSA         ; work         ;
+;    |CSA:c29|               ; 100 (100)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c29       ; CSA         ; work         ;
+;    |CSA:c2|                ; 62 (62)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c2        ; CSA         ; work         ;
+;    |CSA:c3|                ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c3        ; CSA         ; work         ;
+;    |CSA:c4|                ; 60 (60)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c4        ; CSA         ; work         ;
+;    |CSA:c5|                ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c5        ; CSA         ; work         ;
+;    |CSA:c6|                ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c6        ; CSA         ; work         ;
+;    |CSA:c7|                ; 60 (60)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c7        ; CSA         ; work         ;
+;    |CSA:c8|                ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c8        ; CSA         ; work         ;
+;    |CSA:c9|                ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |MWCS|CSA:c9        ; CSA         ; work         ;
+;    |FF32:ff1|              ; 0 (0)               ; 499 (499)                 ; 0                 ; 0          ; 0    ; 0            ; |MWCS|FF32:ff1      ; FF32        ; work         ;
+;    |FF32:ff2|              ; 0 (0)               ; 114 (114)                 ; 0                 ; 0          ; 0    ; 0            ; |MWCS|FF32:ff2      ; FF32        ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                            ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------+
+; Register name                                                                                                        ; Reason for Removal                     ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------+
+; FF32:ff2|q[0..2]                                                                                                     ; Stuck at GND due to stuck port data_in ;
+; FF32:ff1|q[34,35,69,70,106..108,143..148,183..186,225,226,265..268,303..308,343..346,385,426..428,463..468,503..505] ; Stuck at GND due to stuck port data_in ;
+; FF32:ff2|q[3]                                                                                                        ; Stuck at GND due to stuck port data_in ;
+; FF32:ff1|q[109,142,149,182,269,302]                                                                                  ; Stuck at GND due to stuck port data_in ;
+; FF32:ff2|q[4..13]                                                                                                    ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 66                                                                               ;                                        ;
++----------------------------------------------------------------------------------------------------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 613   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c0 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c1 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c2 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c3 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c4 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c5 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c6 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c7 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c8 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c9 ;
++----------------+-------+----------------------------+
+; Parameter Name ; Value ; Type                       ;
++----------------+-------+----------------------------+
+; WIDTH          ; 34    ; Signed Integer             ;
++----------------+-------+----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c10 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 40    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c11 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 40    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c12 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 40    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c13 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 40    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c14 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 40    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c15 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 40    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c16 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 36    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: FF32:ff1 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; WIDTH          ; 552   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c17 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 58    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c18 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 58    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c19 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 58    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c20 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 58    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c21 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 38    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c22 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 59    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c23 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 59    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c24 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 63    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c25 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 60    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c26 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 64    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c27 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 61    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c28 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 66    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CSA:c29 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; WIDTH          ; 67    ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: FF32:ff2 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; WIDTH          ; 134   ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "FF32:ff2"                                                                                  ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; q[133..131] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; q[66..64]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "CSA:c29"                                                                                                                                                                               ;
++----------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                                                                                                             ;
++----------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; X[66]    ; Input ; Info     ; Stuck at GND                                                                                                                                                                        ;
+; Y[2..0]  ; Input ; Info     ; Stuck at GND                                                                                                                                                                        ;
+; Z        ; Input ; Warning  ; Input port expression (92 bits) is wider than the input port (67 bits) it drives.  The 25 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; Z[25..0] ; Input ; Info     ; Stuck at GND                                                                                                                                                                        ;
++----------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "CSA:c28"                                                                                                                                           ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+; X         ; Input  ; Warning  ; Input port expression (65 bits) is smaller than the input port (66 bits) it drives.  Extra input bit(s) "X[65..65]" will be connected to GND. ;
+; X[64..61] ; Input  ; Info     ; Stuck at GND                                                                                                                                  ;
+; Y[1..0]   ; Input  ; Info     ; Stuck at GND                                                                                                                                  ;
+; Z         ; Input  ; Warning  ; Input port expression (65 bits) is smaller than the input port (66 bits) it drives.  Extra input bit(s) "Z[65..65]" will be connected to GND. ;
+; Z[64..62] ; Input  ; Info     ; Stuck at GND                                                                                                                                  ;
+; Z[1]      ; Input  ; Info     ; Stuck at GND                                                                                                                                  ;
+; C[65..41] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                           ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------+
+; Port Connectivity Checks: "CSA:c27"       ;
++---------+-------+----------+--------------+
+; Port    ; Type  ; Severity ; Details      ;
++---------+-------+----------+--------------+
+; X[60]   ; Input ; Info     ; Stuck at GND ;
+; Y[0]    ; Input ; Info     ; Stuck at GND ;
+; Z[1..0] ; Input ; Info     ; Stuck at GND ;
++---------+-------+----------+--------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "CSA:c26"        ;
++----------+-------+----------+--------------+
+; Port     ; Type  ; Severity ; Details      ;
++----------+-------+----------+--------------+
+; X[63]    ; Input ; Info     ; Stuck at GND ;
+; Y[0]     ; Input ; Info     ; Stuck at GND ;
+; Z[25..0] ; Input ; Info     ; Stuck at GND ;
++----------+-------+----------+--------------+
+
+
++-----------------------------------------+
+; Port Connectivity Checks: "CSA:c25"     ;
++-------+-------+----------+--------------+
+; Port  ; Type  ; Severity ; Details      ;
++-------+-------+----------+--------------+
+; X[59] ; Input ; Info     ; Stuck at GND ;
+; Y[0]  ; Input ; Info     ; Stuck at GND ;
+; Z[0]  ; Input ; Info     ; Stuck at GND ;
++-------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c24"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[62..58] ; Input ; Info     ; Stuck at GND ;
+; Y[62..59] ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[24..0]  ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++-----------------------------------------+
+; Port Connectivity Checks: "CSA:c23"     ;
++-------+-------+----------+--------------+
+; Port  ; Type  ; Severity ; Details      ;
++-------+-------+----------+--------------+
+; X[58] ; Input ; Info     ; Stuck at GND ;
+; Y[0]  ; Input ; Info     ; Stuck at GND ;
+; Z[0]  ; Input ; Info     ; Stuck at GND ;
++-------+-------+----------+--------------+
+
+
++-----------------------------------------+
+; Port Connectivity Checks: "CSA:c22"     ;
++-------+-------+----------+--------------+
+; Port  ; Type  ; Severity ; Details      ;
++-------+-------+----------+--------------+
+; X[58] ; Input ; Info     ; Stuck at GND ;
+; Y[0]  ; Input ; Info     ; Stuck at GND ;
+; Z[0]  ; Input ; Info     ; Stuck at GND ;
++-------+-------+----------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "CSA:c21"                                                                                                                                      ;
++---------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                     ;
++---------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; X       ; Input ; Warning  ; Input port expression (5 bits) is smaller than the input port (38 bits) it drives.  Extra input bit(s) "X[37..5]" will be connected to GND. ;
+; X[4..1] ; Input ; Info     ; Stuck at GND                                                                                                                                ;
+; Y[37]   ; Input ; Info     ; Stuck at GND                                                                                                                                ;
+; Y[0]    ; Input ; Info     ; Stuck at GND                                                                                                                                ;
+; Z[1..0] ; Input ; Info     ; Stuck at GND                                                                                                                                ;
++---------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c20"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[57..40] ; Input ; Info     ; Stuck at GND ;
+; Y[57..49] ; Input ; Info     ; Stuck at GND ;
+; Y[8..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[17..0]  ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c19"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[57..40] ; Input ; Info     ; Stuck at GND ;
+; Y[57..49] ; Input ; Info     ; Stuck at GND ;
+; Y[8..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[17..0]  ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c18"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[57..40] ; Input ; Info     ; Stuck at GND ;
+; Y[57..49] ; Input ; Info     ; Stuck at GND ;
+; Y[8..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[17..0]  ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c17"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[57..40] ; Input ; Info     ; Stuck at GND ;
+; Y[57..49] ; Input ; Info     ; Stuck at GND ;
+; Y[8..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[17..0]  ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "FF32:ff1"                                                                                                                                                                             ;
++------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                                                                                               ;
++------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; d    ; Input  ; Warning  ; Input port expression (586 bits) is wider than the input port (552 bits) it drives.  The 34 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; q    ; Output ; Warning  ; Output or bidir port (552 bits) is smaller than the port expression (553 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND.             ;
++------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c16"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[35..34] ; Input ; Info     ; Stuck at GND ;
+; Y[2..0]   ; Input ; Info     ; Stuck at GND ;
+; Y[35]     ; Input ; Info     ; Stuck at GND ;
+; Z[3..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c15"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[39..34] ; Input ; Info     ; Stuck at GND ;
+; Y[39..37] ; Input ; Info     ; Stuck at GND ;
+; Y[2..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[5..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c14"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[39..34] ; Input ; Info     ; Stuck at GND ;
+; Y[39..37] ; Input ; Info     ; Stuck at GND ;
+; Y[2..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[5..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c13"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[39..34] ; Input ; Info     ; Stuck at GND ;
+; Y[39..37] ; Input ; Info     ; Stuck at GND ;
+; Y[2..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[5..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c12"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[39..34] ; Input ; Info     ; Stuck at GND ;
+; Y[39..37] ; Input ; Info     ; Stuck at GND ;
+; Y[2..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[5..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c11"         ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[39..34] ; Input ; Info     ; Stuck at GND ;
+; Y[39..37] ; Input ; Info     ; Stuck at GND ;
+; Y[2..0]   ; Input ; Info     ; Stuck at GND ;
+; Z[5..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "CSA:c10"                                                                                 ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; X[39..34] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; Y[39..37] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; Y[2..0]   ; Input  ; Info     ; Stuck at GND                                                                        ;
+; Z[5..0]   ; Input  ; Info     ; Stuck at GND                                                                        ;
+; S[39..6]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c9"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c8"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c7"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c6"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c5"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c4"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c3"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c2"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c1"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "CSA:c0"          ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; X[33..32] ; Input ; Info     ; Stuck at GND ;
+; Y[33]     ; Input ; Info     ; Stuck at GND ;
+; Y[0]      ; Input ; Info     ; Stuck at GND ;
+; Z[1..0]   ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 613                         ;
+;     plain             ; 613                         ;
+; arriav_lcell_comb     ; 1862                        ;
+;     arith             ; 50                          ;
+;         2 data inputs ; 50                          ;
+;     normal            ; 1812                        ;
+;         2 data inputs ; 73                          ;
+;         3 data inputs ; 505                         ;
+;         4 data inputs ; 163                         ;
+;         5 data inputs ; 283                         ;
+;         6 data inputs ; 788                         ;
+; boundary_port         ; 99                          ;
+;                       ;                             ;
+; Max LUT depth         ; 6.90                        ;
+; Average LUT depth     ; 3.02                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:06     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Processing started: Mon Dec 16 23:04:47 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MWCS -c MWCS
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pc/desktop/fyd/singlecycleprocessor/ff32/ff32.v
+    Info (12023): Found entity 1: FF32 File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/FF32/FF32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file csa.v
+    Info (12023): Found entity 1: CSA File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/CSA.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mwcs.v
+    Info (12023): Found entity 1: MWCS File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at MWCS.v(68): created implicit net for "rset" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+Info (12127): Elaborating entity "MWCS" for the top level hierarchy
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c0" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 49
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c10" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 60
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c16" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 66
+Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff1" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 69
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c17" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 71
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c21" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 75
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c22" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 77
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c24" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 79
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c25" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 81
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c26" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 82
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c27" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 84
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c28" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 86
+Info (12128): Elaborating entity "CSA" for hierarchy "CSA:c29" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 88
+Info (12128): Elaborating entity "FF32" for hierarchy "FF32:ff2" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 90
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "rset" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 68
+    Warning (12110): Net "S1f[0][39]" is missing source, defaulting to GND File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 14
+Warning (12241): 4 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/output_files/MWCS.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "reset" File: C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/MWCS.v Line: 2
+Info (21057): Implemented 1962 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 67 input pins
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 1863 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 59 warnings
+    Info: Peak virtual memory: 4818 megabytes
+    Info: Processing ended: Mon Dec 16 23:05:04 2024
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:30
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/PC/Desktop/fyd/SingleCycleProcessor/MultWithCarrySave/output_files/MWCS.map.smsg.
+
+

@@ -1,0 +1,12 @@
+module CSA(X,Y,Z,S,C);
+input [31:0]X,Y,Z;
+output [31:0]C,S;
+
+generate
+   genvar i;
+	for(i=0; i<32 ; i=i+1) begin : Add
+	   assign {C[i],S[i]} = X[i] + Y[i] + Z[i];
+	end
+endgenerate
+
+endmodule 
